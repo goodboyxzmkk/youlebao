@@ -1,0 +1,5 @@
+日志名称: 'YCH'
+控制台日志级别: 'DEBUG'
+文件日志级别: 'DEBUG'
+保留日志天数: 3
+日志格式: '[%(asctime)s] - %(name)s - %(levelname)s - %(message)s'

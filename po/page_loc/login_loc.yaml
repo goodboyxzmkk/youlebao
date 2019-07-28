@@ -1,0 +1,13 @@
+URL: http://ylbfactory.demo.youcaihua.net/admin/
+URL_TEST: http://localhost:9999/admin/
+browserType: chrome #firefox、chrome、ie、h5
+数据:
+  用户名: admin
+  密码: admin
+登录页面:
+  用户名: //*[@id="txtName"]
+  密码: //*[@id="txtPwd"]
+  登录按键: //*[@id="fm-login-submit"]
+断言:
+  登录成功: //span[@class="userinfo_pox"]
+  登录失败: //*[@id="modeshowcontext"]

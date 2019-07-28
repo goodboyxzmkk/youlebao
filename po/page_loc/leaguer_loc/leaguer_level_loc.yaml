@@ -1,0 +1,27 @@
+
+会员菜单: //*[@id="mumu_group100001100"]
+会员管理菜单: //*[@id="pleft_100001100"]
+会员级别菜单: //*[@id="left_100001100"]
+右侧iframe: //*[contains(@src,"LgLeveSet.html")]
+
+新增按键: //*[@id="btnAdd"]
+级别名称: //*[@id="txtName"]
+续期价格: //*[@id="txtRejoinMoney"]
+补卡价格: //*[@id="txtSupplementCardMoney"]
+积分过期时长: //*[@id="txtHeapcentExpireTime"]
+注销退款系数: //*[@id="txtUnJoinRent"]
+换卡价格: //*[@id="txtChangeMoney"]
+备注: //*[@id="txtSumary"]
+保存按键: //*[@id="btnSave"]
+保存提示: //*[@id="alert"]
+sql断言: select ID,LevelName from Mall_LeaguerLevel where IsDelete=0 and LevelName=
+
+编辑按键: //*[@id="btnEdit"]
+删除按键: //*[@id="btnDel"]
+确认删除: //*[@id="btnMsgDelOK"]
+
+#-----查询元素-----
+查询级别名称: //*[@id="txtLevelName"]
+查询按键: //*[@id="btnQuery"]
+查询table: /html/body/div[1]/div[4]/div/div/div[1]/div[2]/div[2]/table
+选择框: //*[@class='datagrid-btable']/tbody/tr/td[1]/div/input

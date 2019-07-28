@@ -1,0 +1,10 @@
+线上页面:
+  线上: //*[@id="mumu_group1010093400"]
+  线上渠道iframe: //*[contains(@src,"ProfessionalGameHome.html")]
+  线上渠道: //*[@id="menu_1010093400"]
+  盈客宝管理: //span[contains(text(),"盈客宝管理")]
+  盈客宝管理iframe: //*[contains(@src,"ProfessionalChannel.html")]
+门店资料维护:
+  门店资料维护: //*[contains(text(),"门店资料维护")]
+  门店资料维护iframe: //*[contains(@src,"StoreManage.html")]
+  门店名称:
