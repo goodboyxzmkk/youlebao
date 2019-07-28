@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cac2cb-b77d-4b8b-85bb-227068b8ff20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/driver_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driver_manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_custom_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_custom_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/logs/2019-07-28.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/logs/2019-07-28.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="692">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -65,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/driver_manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="95" lean-forward="true" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+            <state relative-caret-position="507">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/send_dingding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -86,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_custom_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="433">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -102,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -139,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_case/logint_test.py" />
         <option value="$PROJECT_DIR$/test_case/login_test.py" />
         <option value="$PROJECT_DIR$/test_case/pytest_test.py" />
         <option value="$PROJECT_DIR$/test_case/pytest_test2.py" />
@@ -183,26 +192,20 @@
         <option value="$PROJECT_DIR$/configs/configs.yaml" />
         <option value="$PROJECT_DIR$/po/page_loc/leaguer_loc/leaguer_level_loc.yaml" />
         <option value="$PROJECT_DIR$/po/pages/login_page.py" />
-        <option value="$PROJECT_DIR$/run_custom_case.py" />
         <option value="$PROJECT_DIR$/test_case/test_loginCase.py" />
         <option value="$PROJECT_DIR$/po/pages/base_page.py" />
         <option value="$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py" />
         <option value="$PROJECT_DIR$/test_case/base_case.py" />
         <option value="$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py" />
         <option value="$PROJECT_DIR$/common/driver_manage.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/common/other/163.com.py" />
+        <option value="$PROJECT_DIR$/run_custom_case.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="159" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -315,7 +318,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -325,19 +328,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programs\youlebao\common" />
-      <recent name="D:\Programs\youlebao\common\other" />
-      <recent name="D:\Programs\youlebao\test_case\leaguer_case" />
-      <recent name="D:\Programs\youlebao\po\pages\leaguer_menu" />
-      <recent name="D:\Programs\youlebao\test_case" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programs\youlebao\test_case\online_case" />
       <recent name="D:\Programs\youlebao\po\pages\online_menu" />
       <recent name="D:\Programs\youlebao\po\page_loc\online_loc" />
       <recent name="D:\Programs\youlebao\test_case" />
       <recent name="D:\Programs\youlebao\common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\youlebao\common" />
+      <recent name="D:\Programs\youlebao\common\other" />
+      <recent name="D:\Programs\youlebao\test_case\leaguer_case" />
+      <recent name="D:\Programs\youlebao\po\pages\leaguer_menu" />
+      <recent name="D:\Programs\youlebao\test_case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,8 +355,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_custom_case">
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.163.com">
+    <configuration name="163.com" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,12 +364,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Programs\youlebao\common\logger3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/other/163.com.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,17 +455,17 @@
     <list>
       <item itemvalue="Python.run_custom_case" />
       <item itemvalue="Python.run_all_case" />
-      <item itemvalue="Python.logger" />
       <item itemvalue="Python tests.Unittests in test_loginCase.py" />
       <item itemvalue="Python tests.Unittests in test_leaguer_level_case.py" />
+      <item itemvalue="Python.163.com" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.163.com" />
         <item itemvalue="Python.run_custom_case" />
         <item itemvalue="Python tests.Unittests in test_leaguer_level_case.py" />
         <item itemvalue="Python tests.Unittests in test_loginCase.py" />
         <item itemvalue="Python.run_all_case" />
-        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +516,7 @@
       <workItem from="1564051240843" duration="1207000" />
       <workItem from="1564058327480" duration="18000" />
       <workItem from="1564112230543" duration="14650000" />
-      <workItem from="1564283244910" duration="6395000" />
+      <workItem from="1564283244910" duration="9150000" />
     </task>
     <task id="LOCAL-00001" summary="初始版">
       <created>1564301292171</created>
@@ -529,7 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564301441093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改驱动路径，可以在jenkins下执行">
+      <created>1564307435268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564307435268</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增dingding发送">
+      <created>1564312042821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564312042821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -565,7 +582,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205200000" />
+    <option name="totallyTimeSpent" value="207955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,12 +597,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2675906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2675906" />
       <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.2675906" />
       <window_info id="Favorites" order="2" sideWeight="0.50165564" side_tool="true" weight="0.2675906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3449024" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.20065077" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.50812566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,7 +625,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始版" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始版" />
+    <MESSAGE value="修改驱动路径，可以在jenkins下执行" />
+    <MESSAGE value="新增dingding发送" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增dingding发送" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,33 +656,32 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/youlebao$logging_config.coverage" NAME="logging_config Coverage Results" MODIFIED="1562563868829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$logger.coverage" NAME="logger Coverage Results" MODIFIED="1563532104131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_0002_onlineCase_py.coverage" NAME="Unittests in test_0002_onlineCase.py Coverage Results" MODIFIED="1562636324847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$my_test.coverage" NAME="my_test Coverage Results" MODIFIED="1563265257897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix1_py.coverage" NAME="pytest in test_fix1.py Coverage Results" MODIFIED="1562311394155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_logint_test_py.coverage" NAME="pytest in login_test.py Coverage Results" MODIFIED="1562120391042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_f1_py.coverage" NAME="pytest in test_f1.py Coverage Results" MODIFIED="1562130451675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
     <SUITE FILE_PATH="coverage/youlebao$config_manage.coverage" NAME="config_manage Coverage Results" MODIFIED="1562583186691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix2_py.coverage" NAME="pytest in test_fix2.py Coverage Results" MODIFIED="1562129829404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
     <SUITE FILE_PATH="coverage/youlebao$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1563532516773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1562660073450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$mysql_helper.coverage" NAME="mysql_helper Coverage Results" MODIFIED="1562726585083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_loginCase_py.coverage" NAME="pytest in loginCase.py Coverage Results" MODIFIED="1562512719427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_0001_loginCase_py.coverage" NAME="Unittests in test_0001_loginCase.py Coverage Results" MODIFIED="1562652955154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_0001_loginCase_py.coverage" NAME="pytest in test_0001_loginCase.py Coverage Results" MODIFIED="1562551945963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_leaguer_level_case_py.coverage" NAME="Unittests in test_leaguer_level_case.py Coverage Results" MODIFIED="1564131927811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
+    <SUITE FILE_PATH="coverage/youlebao$163_com.coverage" NAME="163.com Coverage Results" MODIFIED="1564311723669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_loginCase_py.coverage" NAME="Unittests in test_loginCase.py Coverage Results" MODIFIED="1564131397065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$logger.coverage" NAME="logger Coverage Results" MODIFIED="1563532104131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$my_test.coverage" NAME="my_test Coverage Results" MODIFIED="1563265257897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_logint_test_py.coverage" NAME="pytest in login_test.py Coverage Results" MODIFIED="1562120391042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1562660073450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$mysql_helper.coverage" NAME="mysql_helper Coverage Results" MODIFIED="1562726585083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_login_test_py.coverage" NAME="pytest in pytest_test.py Coverage Results" MODIFIED="1562125905209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_pytest_test2_py.coverage" NAME="pytest in pytest_test2.py Coverage Results" MODIFIED="1562126161212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_0001_loginCase_py.coverage" NAME="pytest in test_0001_loginCase.py Coverage Results" MODIFIED="1562551945963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1562683660118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1564306187475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_leaguer_level_case_py.coverage" NAME="Unittests in test_leaguer_level_case.py Coverage Results" MODIFIED="1564131927811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
     <SUITE FILE_PATH="coverage/youlebao$loginCase.coverage" NAME="loginCase Coverage Results" MODIFIED="1562121475410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$my_test2.coverage" NAME="my_test2 Coverage Results" MODIFIED="1563267429053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_loginCase_py.coverage" NAME="Unittests in test_loginCase.py Coverage Results" MODIFIED="1564131397065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper Coverage Results" MODIFIED="1562726664165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-09 23-22-27 test_001_leaguer_level_case.png" />
-    <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 11-29-44 test_001_leaguer_level_case.png" />
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 13-58-29 test_001_leaguer_level_case.png" />
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 10-59-11 test_001_leaguer_level_case.png" />
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 11-21-31 test_001_leaguer_level_case.png" />
@@ -918,19 +936,9 @@
     <entry file="file://$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="692">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_custom_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -938,7 +946,7 @@
     <entry file="file://$PROJECT_DIR$/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -955,10 +963,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/other/163.com.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#20#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/driver_manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="95" lean-forward="true" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+        <state relative-caret-position="507">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/send_dingding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_custom_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
