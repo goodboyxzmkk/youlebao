@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cac2cb-b77d-4b8b-85bb-227068b8ff20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/driver_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driver_manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +12,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="youlebao" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="692">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="e#15#56#0" expanded="true" />
               </folding>
@@ -52,11 +56,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/base_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="210">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="e#15#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/driver_manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="95" lean-forward="true" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -76,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_custom_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
+            <state relative-caret-position="360">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
@@ -140,7 +153,6 @@
         <option value="$PROJECT_DIR$/common/send_mail.py" />
         <option value="$PROJECT_DIR$/utils/read_file.py" />
         <option value="$PROJECT_DIR$/test_case/loginCase.py" />
-        <option value="$PROJECT_DIR$/common/driver_manage.py" />
         <option value="$PROJECT_DIR$/po/pages/loginPage.py" />
         <option value="$PROJECT_DIR$/po/pages/start_end.py" />
         <option value="$PROJECT_DIR$/configs/log.conf" />
@@ -177,6 +189,7 @@
         <option value="$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py" />
         <option value="$PROJECT_DIR$/test_case/base_case.py" />
         <option value="$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py" />
+        <option value="$PROJECT_DIR$/common/driver_manage.py" />
       </list>
     </option>
   </component>
@@ -189,7 +202,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="159" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -339,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_leaguer_level_case.py">
+  <component name="RunManager" selected="Python.run_custom_case">
     <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,8 +458,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_leaguer_level_case.py" />
         <item itemvalue="Python.run_custom_case" />
+        <item itemvalue="Python tests.Unittests in test_leaguer_level_case.py" />
         <item itemvalue="Python tests.Unittests in test_loginCase.py" />
         <item itemvalue="Python.run_all_case" />
         <item itemvalue="Python.logger" />
@@ -500,7 +513,7 @@
       <workItem from="1564051240843" duration="1207000" />
       <workItem from="1564058327480" duration="18000" />
       <workItem from="1564112230543" duration="14650000" />
-      <workItem from="1564283244910" duration="2795000" />
+      <workItem from="1564283244910" duration="6395000" />
     </task>
     <task id="LOCAL-00001" summary="初始版">
       <created>1564301292171</created>
@@ -509,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564301292171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始版">
+      <created>1564301441093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564301441093</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -545,7 +565,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201600000" />
+    <option name="totallyTimeSpent" value="205200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,13 +578,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2675906" />
+      <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.2675906" />
+      <window_info id="Favorites" order="2" sideWeight="0.50165564" side_tool="true" weight="0.2675906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.34561214" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3449024" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.50812566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,7 +594,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.17659806" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -633,7 +654,7 @@
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_pytest_test2_py.coverage" NAME="pytest in pytest_test2.py Coverage Results" MODIFIED="1562126161212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_0001_loginCase_py.coverage" NAME="pytest in test_0001_loginCase.py Coverage Results" MODIFIED="1562551945963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1562683660118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1564131468073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1564306187475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_leaguer_level_case_py.coverage" NAME="Unittests in test_leaguer_level_case.py Coverage Results" MODIFIED="1564131927811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
     <SUITE FILE_PATH="coverage/youlebao$loginCase.coverage" NAME="loginCase Coverage Results" MODIFIED="1562121475410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$my_test2.coverage" NAME="my_test2 Coverage Results" MODIFIED="1563267429053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
@@ -641,13 +662,6 @@
     <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper Coverage Results" MODIFIED="1562726664165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Python/Python37-32/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-09 23-22-27 test_001_leaguer_level_case.png" />
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 11-29-44 test_001_leaguer_level_case.png" />
     <entry file="file://$PROJECT_DIR$/test_report/screen/2019-07-10 13-58-29 test_001_leaguer_level_case.png" />
@@ -697,13 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/driver_manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -867,16 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/base_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -911,6 +908,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/logs/2019-07-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_custom_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -921,23 +945,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_custom_case.py">
+    <entry file="file://$PROJECT_DIR$/test_case/base_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="210">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#15#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py">
+    <entry file="file://$PROJECT_DIR$/common/driver_manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="95" lean-forward="true" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
         </state>
       </provider>
     </entry>
