@@ -30,18 +30,27 @@ class Logger():
         ch.setFormatter(self.formatter)
         self.logger.addHandler(ch)
 
-        if level.lower() == 'info':
+        if level == 'info':
             self.logger.info(message)
-        if level.lower() == 'debug':
+        if level == 'debug':
             self.logger.debug(message)
-        if level.lower() == 'warning':
+        if level == 'warning':
             self.logger.warning(message)
-        if level.lower() == 'error':
+        if level == 'error':
             self.logger.error(message)
 
         # 避免日志输出重复问题
         self.logger.removeHandler(ch)
         self.logger.removeHandler(fh)
+
+        self.__del_log()
+
+    def __del_log(self):
+        '''只保留10天的日志'''
+        dirs_list = os.listdir(config_manage.LOG_PATH)  # 获取路径下所有文件
+        file_path = os.path.join(config_manage.LOG_PATH, dirs_list[0])  # 列表中的第一个文件
+        if len(dirs_list) > 10:
+            os.remove(file_path)
 
     def debug(self, msg):
         self.__console('debug', msg)
@@ -59,6 +68,6 @@ class Logger():
 if __name__ == '__main__':
     log = Logger()
     log.debug("This is debug")
-    log.info("This is info")
-    log.warning("This is warning")
-    log.error("This is error")
+    # log.info("This is info")
+    # log.warning("This is warning")
+    # log.error("This is error")
