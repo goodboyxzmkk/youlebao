@@ -3,7 +3,7 @@ import requests, json
 
 
 def send_ding(message):
-    url = "https://oapi.dingtalk.com/robot/send?access_token=91a1f571187a08969a787ba29443c709c42ab62e10e4d30e5793d9c4387aeec8"
+    url = "https://oapi.dingtalk.com/robot/send?access_token=3c3a9adb21ff20468a69b9c3f4c5dee8295b26215ea9992740a8116d845d8e00"
     String_textMsg = {
         "msgtype": "text",
         "text": {
@@ -27,7 +27,7 @@ def send_ding(message):
 
 
 def send_ding_to_url(message, file_url):
-    url = "https://oapi.dingtalk.com/robot/send?access_token=91a1f571187a08969a787ba29443c709c42ab62e10e4d30e5793d9c4387aeec8"
+    url = "https://oapi.dingtalk.com/robot/send?access_token=3c3a9adb21ff20468a69b9c3f4c5dee8295b26215ea9992740a8116d845d8e00"
     String_textMsg = {
         "msgtype": "markdown",
         "markdown": {

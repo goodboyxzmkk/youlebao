@@ -23,5 +23,5 @@ if __name__ == '__main__':
                                            retry=0, save_last_try=False)
     runner.run(suites)
     fp.close()
-    send_ding("自动化测试结束")
+    send_ding("ui自动化测试结束")
     # send_email.send_Email()
