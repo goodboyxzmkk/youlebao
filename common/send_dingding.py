@@ -51,4 +51,4 @@ def send_ding_to_url(message, file_url):
         return False
 
 if __name__ == '__main__':
-    send_ding("sorry,我是斯文人，女孩子这么粗鲁不好！嘻嘻")
+    send_ding("这个可以有")

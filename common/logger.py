@@ -1,75 +1,64 @@
 # _*_ coding: utf-8 _*_
-import logging
-import os.path
-import time
+import logging, os, time
 from common import config_manage
 
 
-class Logger(object):
+class Logger():
     def __init__(self):
         '''指定保存日志的文件路径，日志级别，以及调用文件，将日志存入到指定的文件中'''
-        current_time = time.strftime('%Y%m%d%H%M',
-                                     time.localtime(time.time()))  # 返回当前时间
-        new_name = config_manage.LOG_PATH  # 在该路径下新建下级目录
-        dir_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))  # 返回当前时间的年月日作为目录名称
-        isExists = os.path.exists(new_name + dir_time)  # 判断该目录是否存在
-        '''
-        if not isExists:
-            os.makedirs(new_name + dir_time)
-            print(new_name + dir_time + "log目录创建成功")
+        # 文件名
+        self.logName = os.path.join(config_manage.LOG_PATH, '%s.log' % time.strftime('%Y-%m-%d'))
+        # 创建logger
+        self.logger = logging.getLogger('YCH')
+        # 设置日志等级
+        self.logger.setLevel(logging.DEBUG)
+        # 日志输出格式
+        self.formatter = logging.Formatter('[%(asctime)s] - %(name)s - %(levelname)s - %(message)s')
 
-        else:
-            # 如果目录存在则不创建，并提示目录已存在
-            print(new_name + "log目录： %s 已存在" % dir_time)
-            '''
-        try:
-            # 创建一个logger(初始化logger)
-            self.log = logging.getLogger("YCH")
-            self.log.setLevel(logging.INFO)
+    def __console(self, level, message):
+        # 创建一个filehandler,用于写日志到本地
+        fh = logging.FileHandler(self.logName, 'a')  # 追加模式
+        fh.setLevel(logging.DEBUG)
+        fh.setFormatter(self.formatter)
 
-            # 创建一个handler，用于写入日志文件
-            log_name = new_name + dir_time + '.log'  # 定义日志文件的路径以及名称
+        # 级logger 添加hander
+        self.logger.addHandler(fh)
 
-            self.fh = logging.FileHandler(log_name)
-            self.fh.setLevel(logging.INFO)
+        # 创建一个StreamHandler,用于输出到控制台
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.DEBUG)
+        ch.setFormatter(self.formatter)
+        self.logger.addHandler(ch)
 
-            # 再创建一个handler，用于输出到控制台
-            self.ch = logging.StreamHandler()
-            self.ch.setLevel(logging.INFO)
+        if level.lower() == 'info':
+            self.logger.info(message)
+        if level.lower() == 'debug':
+            self.logger.debug(message)
+        if level.lower() == 'warning':
+            self.logger.warning(message)
+        if level.lower() == 'error':
+            self.logger.error(message)
 
-            # 定义handler的输出格式
-            formatter = logging.Formatter('[%(asctime)s] - %(name)s - %(levelname)s - %(message)s')
-            self.fh.setFormatter(formatter)
-            self.ch.setFormatter(formatter)
+        # 避免日志输出重复问题
+        self.logger.removeHandler(ch)
+        self.logger.removeHandler(fh)
 
-            # 给logger添加handler
-            self.log.addHandler(self.fh)
-            self.log.addHandler(self.ch)
-        except Exception as e:
-            print("输出日志失败！ %s" % e)
+    def debug(self, msg):
+        self.__console('debug', msg)
 
-    # 日志接口，用户只需调用这里的接口即可，这里只定位了INFO, WARNING, ERROR三个级别的日志，可根据需要定义更多接口
+    def info(self, msg):
+        self.__console('info', msg)
 
-    def info(cls, msg):
-        cls.log.info(msg)
-        return
+    def warning(self, msg):
+        self.__console('warning', msg)
 
-    def warning(cls, msg):
-        cls.log.warning(msg)
-        return
-
-    def error(cls, msg):
-        cls.log.error(msg)
-        return
-
-    def del_handler(cls):
-        #  在记录日志之后移除句柄
-        cls.log.removeHandler(cls.ch)
-        cls.log.removeHandler(cls.fh)
+    def error(self, msg):
+        self.__console('error', msg)
 
 
 if __name__ == '__main__':
-    logger = Logger()
-    logger.info('This is info')
-    logger.warning('This is warning')
-    logger.error('This is error')
+    log = Logger()
+    log.debug("This is debug")
+    log.info("This is info")
+    log.warning("This is warning")
+    log.error("This is error")

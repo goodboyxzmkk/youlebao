@@ -38,7 +38,7 @@ class Base_Case(unittest.TestCase):
         self.end = time.perf_counter()
         self.log.info('【用例运行时长】: {}秒'.format(self.end - self.start))
         self.log.info("====================【{}测试用例结束】====================".format(self._testMethodName))
-        self.log.del_handler()
+        # self.log.del_handler()
 
     def default_login(self):
         self.base.input(By.XPATH, login_loc['登录页面']['用户名'], login_loc['数据']['用户名'])
