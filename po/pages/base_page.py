@@ -10,13 +10,18 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from common import config_manage
+from common.logger import Logger
 
 
 class Base_Page(object):
 
     def __init__(self, driver, log):
         self.driver = driver
-        self.log = log
+        try:
+            if isinstance(log, Logger):
+                self.log = log
+        except:
+            print("log类型不正确")
         self.timeout = 5
         self.t = 0.5
 
@@ -153,6 +158,15 @@ class Base_Page(object):
         except:
             return False
 
+    def assert_alert_info(self, by='xpath', loc='//*[@id="alert"]', expect_value=None):
+        try:
+            alert = self.find_element(by, loc)
+            self.log.info("实际结果：{}".format(alert.text))
+            self.log.info("预期结果：{}".format(expect_value))
+            assert alert.text.find(expect_value)
+        except:
+            self.log.info("找不到元素alert!")
+
     def switch_alert(self):
         '''切换alert'''
         r = self.is_alert()
@@ -205,10 +219,6 @@ class Base_Page(object):
         '''选择下拉框的某一个值'''
         ele = self.find_element(by, loc)
         Select(ele).select_by_value(value)
-
-    def log(self):  # 定义log方法方便调用
-        '''返回log对象'''
-        return self.log
 
     def forward(self):
         '''浏览器前进'''

@@ -1,0 +1,28 @@
+商品菜单: //*[@id="mumu_group100003800"]
+商品管理菜单: //*[@id="pleft_100003800"]
+商品资料菜单: //*[@id="left_100003800"]
+右侧iframe: //*[contains(@src,"ProfessionalGoodsList.html")]
+
+#通用商品元素
+新增按键: //span[contains(text(),'  新增') ]/parent::button
+通用商品: //img[contains(@src,'normalGood.png')]/parent::span
+
+#商品信息
+商品名称: //*[@id="goods-normal-add"]/div/div[1]/div[1]/input
+商品分类: //*[@id="sltNormalGoodsClassAdd"]/div/div/input
+下拉框一级分类: //*[@id="sltNormalGoodsClassAdd"]/div/div/ul/li[4]/a
+商品条码: //*[@id="goods-normal-add"]/div/div[2]/div[3]/input
+售卖价格: //*[@id="goods-normal-add"]/div/div[3]/div[1]/input
+初始化库存: //*[@id="goods-normal-add"]/div/div[4]/div[1]/input
+库存预警数量: //*[@id="goods-normal-add"]/div/div[4]/div[4]/input
+估算成本: //*[@id="goods-normal-add"]/div/div[5]/div/input
+退货手续费: //*[@id="txtReturnFee"]
+
+#兑换设置
+启用彩票兑换: //*[@id="rdoTkRun"]
+#启用积分兑换: //*[text()='使用积分兑换:']/following-sibling::div/label/input[@id='rdoHeapcentRun']
+启用积分兑换: //*[@id="rdoHeapcentRun"]
+启用代币兑换: /html/body/div[9]/div/div/div[2]/form[5]/div/div[4]/div[1]/div/label[2]/input
+启用金币兑换: /html/body/div[9]/div/div/div[2]/form[5]/div/div[5]/div[1]/div/label[2]/input
+
+保存按键: //*[@id="btnSave" and text()='保 存']

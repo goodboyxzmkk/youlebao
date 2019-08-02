@@ -1,10 +1,13 @@
 from test_case.base_case import Base_Case
 from po.pages.login_page import Login_Page
+from common import config_manage
 from ddt import ddt, data
 import unittest
 
-test_data = [{'用户名': 'admin', '密码': 'admin', '预期结果': '超级管理员(admin)', '登录成功': '是'},
-             {'用户名': 'admin', '密码': 'error', '预期结果': '用户密码错误（错误码:90002）', '登录成功': '否'}]
+test_data = [{'用户名': 'admin', '密码': 'admin', '预期结果': '超级管理员(admin)', '登录成功': '是'}, ]
+
+
+# {'用户名': 'admin', '密码': 'error', '预期结果': '用户密码错误（错误码:90002）', '登录成功': '否'}]
 
 
 @ddt
@@ -12,8 +15,21 @@ class Login_Case(Base_Case):
 
     @data(*test_data)
     def test_001_login_case(self, data):
+        '''用户登录'''
         login_page = Login_Page(self.base, data)
         login_page.run_login()
+        cookies = self.driver.get_cookies()
+        if data['登录成功'] == '是':
+            self.get_cookies(cookies)
+
+    def get_cookies(self, cookies):
+        coki = {}
+        for ck in cookies:
+            if ck['name'] == 'ss-id':
+                coki['ss-id'] = ck['value']
+            if ck['name'] == 'ss-pid':
+                coki['ss-pid'] = ck['value']
+        config_manage.write_cookies(coki)
 
 
 if __name__ == '__main__':

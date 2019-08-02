@@ -1,0 +1,17 @@
+商品菜单: //*[@id="mumu_group100003800"]
+商品管理菜单: //*[@id="pleft_100003800"]
+商品资料菜单: //*[@id="left_100003800"]
+右侧iframe: //*[contains(@src,"ProfessionalGoodsList.html")]
+所有商品分类: /html/body/div[1]/div[1]/div[1]/div[1]/div/div[1]/div[1]/span[2]/span[1]
+第一个一级分类: /html/body/div[1]/div[1]/div[1]/div[1]/div/div[1]/div[2]/div[2]/div[1]/span[2]/span[1]
+第二个一级分类: /html/body/div[1]/div[1]/div[1]/div[1]/div/div[1]/div[2]/div[3]/div[1]/span[2]/span[1]
+
+#新增子类，编辑，删除，按键
+新增子类: //span[text()='新增子类']/parent::button
+编辑: //span[text()='编辑']/parent::button
+删除: //span[text()='删除']/parent::button
+
+分类名称: //*[@class='el-form' ]/descendant::input
+保存并新增: /html/body/div[1]/div[1]/div[2]/div/div[3]/div/button[1]
+保存: /html/body/div[1]/div[1]/div[2]/div/div[3]/div/button[2]
+sql断言: select ClassName from Mall_GoodClass where IsDelete=0 and ClassName=

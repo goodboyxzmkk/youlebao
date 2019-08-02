@@ -17,7 +17,7 @@ class Logger():
 
     def __console(self, level, message):
         # 创建一个filehandler,用于写日志到本地
-        fh = logging.FileHandler(self.logName, 'a')  # 追加模式
+        fh = logging.FileHandler(self.logName, 'a', encoding="GBK")  # 追加模式
         fh.setLevel(logging.DEBUG)
         fh.setFormatter(self.formatter)
 

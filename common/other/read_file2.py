@@ -1,13 +1,11 @@
 # coding:utf-8
 import xlrd, csv
-from datetime import datetime
-from xlrd import xldate_as_tuple
 from common import config_manage
 
 
 def get_data_excel(excelfile_Name, sheetName='Sheet1'):
     excelfile_path = config_manage.TESTDATA_PATH + excelfile_Name + ".xlsx"
-    # excelfile_path = excelfile_Name
+    # if excelfile_path.endswith('.xls') or file_path.endswith('.xlsx'):#判断文件是否为excel文件
     book = xlrd.open_workbook(excelfile_path)
     table = book.sheet_by_name(sheetName)
     # 获取第一行作为key值
@@ -26,17 +24,8 @@ def get_data_excel(excelfile_Name, sheetName='Sheet1'):
             # 从第二行取对应values值
             values = table.row_values(j)
             for x in range(colNum):
-                ctype = table.cell(j, x).ctype  # 表格的数据类型
-                cell = table.cell_value(j, x)
-                if ctype == 2 and cell % 1 == 0:  # 如果是整形
-                    cell = int(cell)
-                elif ctype == 3:
-                    # 转成datetime对象
-                    date = datetime(*xldate_as_tuple(cell, 0))
-                    cell = date.strftime('%Y/%d/%m %H:%M:%S')
-                elif ctype == 4:
-                    cell = True if cell == 1 else False
-                s[keys[x]] = cell
+                '''读excel数字类型默认读出来的是float,在把excel单元格设置为文本，或数字前加分号（'）'''
+                s[keys[x]] = str(values[x])
             r.append(s)
             j += 1
         return r
@@ -50,6 +39,7 @@ def get_data_csv(csvfile_Name):
     return column
 
 
-if __name__ == '__main__':
-    filepath = "ddtt"
+if __name__ == "__main__":
+    filepath = "d:\\ddt.xlsx"
+    sheetName = "Sheet1"
     print(get_data_excel(filepath))

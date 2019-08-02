@@ -1,6 +1,8 @@
 from test_case.test_loginCase import Login_Case
 from test_case.online_case.test_online_ykb_case import Online_Ykb_Case
 from test_case.leaguer_case.test_leaguer_level_case import Leaguer_Level_Case
+from test_case.goods_case.test_goods_category_case import Goods_Category_Case
+from test_case.goods_case.test_goods_case import Goods_Case
 from common import config_manage, send_email
 from common.send_dingding import send_ding
 import unittest, HTMLTestRunner, time
@@ -9,10 +11,12 @@ import unittest, HTMLTestRunner, time
 login_test = unittest.TestLoader().loadTestsFromTestCase(Login_Case)
 online_test = unittest.TestLoader().loadTestsFromTestCase(Online_Ykb_Case)
 leaguer_level_test = unittest.TestLoader().loadTestsFromTestCase(Leaguer_Level_Case)
+goods_category = unittest.TestLoader().loadTestsFromTestCase(Goods_Category_Case)
+goods = unittest.TestLoader().loadTestsFromTestCase(Goods_Case)
 
 if __name__ == '__main__':
     # suites = unittest.TestSuite([online_test, login_test, leaguer_level_test])
-    suites = unittest.TestSuite([login_test, leaguer_level_test])
+    suites = unittest.TestSuite([login_test, leaguer_level_test, goods_category, goods])
 
     # now = time.strftime("%Y-%m-%d %H-%M-%S")
     # html_file = config_manage.REPORT_PATH + now + ".html"  #每次生成一份新的测试报告

@@ -12,6 +12,7 @@ class Leaguer_Level_Case(Base_Case):
 
     # @unittest.skip("跳过")
     def test_001_leaguer_level_add(self):
+        '''新增会员'''
         super().default_login()
         leaguer_level_page = Leaguer_Level_Page(self.base, test_data)
         leaguer_level_page.switch_in_leaguer_level_menu()
@@ -21,6 +22,7 @@ class Leaguer_Level_Case(Base_Case):
         leaguer_level_page.assert_add_result()
 
     def test_002_leaguer_level_query(self):
+        '''查询会员'''
         super().default_login()
         leaguer_level_page = Leaguer_Level_Page(self.base, test_data)
         leaguer_level_page.switch_in_leaguer_level_menu()
@@ -29,6 +31,7 @@ class Leaguer_Level_Case(Base_Case):
         leaguer_level_page.assert_query_result()
 
     def test_003_leaguer_level_del(self):
+        '''删除会员'''
         super().default_login()
         leaguer_level_page = Leaguer_Level_Page(self.base, test_data)
         leaguer_level_page.switch_in_leaguer_level_menu()

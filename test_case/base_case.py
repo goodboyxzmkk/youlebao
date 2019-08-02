@@ -5,6 +5,7 @@ from common import config_manage
 from po.pages.base_page import Base_Page
 from selenium.webdriver.common.by import By
 from common.driver_manage import Driver_Manager
+import warnings, urllib3
 
 # 元素定位：文件名称
 login_loc = config_manage.get_yaml_page_loc('login_loc.yaml')
@@ -14,6 +15,8 @@ class Base_Case(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
+        urllib3.disable_warnings()  # 去除警告
+        warnings.simplefilter("ignore", ResourceWarning)
         driver_manager = Driver_Manager()
         cls.driver = driver_manager.get_driver(login_loc['browserType'])
 
@@ -38,7 +41,6 @@ class Base_Case(unittest.TestCase):
         self.end = time.perf_counter()
         self.log.info('【用例运行时长】: {}秒'.format(self.end - self.start))
         self.log.info("====================【{}测试用例结束】====================".format(self._testMethodName))
-        # self.log.del_handler()
 
     def default_login(self):
         self.base.input(By.XPATH, login_loc['登录页面']['用户名'], login_loc['数据']['用户名'])
