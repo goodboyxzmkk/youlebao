@@ -22,15 +22,6 @@ class Login_Case(Base_Case):
         if data['登录成功'] == '是':
             self.get_cookies(cookies)
 
-    def get_cookies(self, cookies):
-        coki = {}
-        for ck in cookies:
-            if ck['name'] == 'ss-id':
-                coki['ss-id'] = ck['value']
-            if ck['name'] == 'ss-pid':
-                coki['ss-pid'] = ck['value']
-        config_manage.write_cookies(coki)
-
 
 if __name__ == '__main__':
     unittest.main()

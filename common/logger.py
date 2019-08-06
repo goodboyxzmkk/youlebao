@@ -11,14 +11,14 @@ class Logger():
         # 创建logger
         self.logger = logging.getLogger('YCH')
         # 设置日志等级
-        self.logger.setLevel(logging.DEBUG)
+        self.logger.setLevel(logging.INFO)
         # 日志输出格式
         self.formatter = logging.Formatter('[%(asctime)s] - %(name)s - %(levelname)s - %(message)s')
 
     def __console(self, level, message):
         # 创建一个filehandler,用于写日志到本地
         fh = logging.FileHandler(self.logName, 'a', encoding="GBK")  # 追加模式
-        fh.setLevel(logging.DEBUG)
+        fh.setLevel(logging.INFO)
         fh.setFormatter(self.formatter)
 
         # 级logger 添加hander
@@ -26,7 +26,7 @@ class Logger():
 
         # 创建一个StreamHandler,用于输出到控制台
         ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
+        ch.setLevel(logging.INFO)
         ch.setFormatter(self.formatter)
         self.logger.addHandler(ch)
 
@@ -46,9 +46,9 @@ class Logger():
         self.__del_log()
 
     def __del_log(self):
-        '''只保留10天的日志'''
+        '''只保留5天的日志'''
         dirs_list = os.listdir(config_manage.LOG_PATH)  # 获取路径下所有日志文件
-        while len(dirs_list) > 10:
+        while len(dirs_list) > 5:
             file_path = os.path.join(config_manage.LOG_PATH, dirs_list[0])  # 列表中的第一个文件
             os.remove(file_path)
             dirs_list = os.listdir(config_manage.LOG_PATH)

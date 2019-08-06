@@ -19,6 +19,7 @@ class Base_Case(unittest.TestCase):
         warnings.simplefilter("ignore", ResourceWarning)
         driver_manager = Driver_Manager()
         cls.driver = driver_manager.get_driver(login_loc['browserType'])
+        cls.driver.implicitly_wait(10)
 
     @classmethod
     def tearDownClass(cls) -> None:

@@ -16,6 +16,7 @@ from common.logger import Logger
 class Base_Page(object):
 
     def __init__(self, driver, log):
+
         self.driver = driver
         try:
             if isinstance(log, Logger):
@@ -23,7 +24,7 @@ class Base_Page(object):
         except:
             print("log类型不正确")
         self.timeout = 5
-        self.t = 0.5
+        self.t = 0.5   #监测的时间间隔
 
     def find_element(self, by, loc):
         # self.log.info("【find元素】，定位方式：{}, 定位表达式：{}".format(by, loc))

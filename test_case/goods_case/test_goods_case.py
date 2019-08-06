@@ -14,7 +14,7 @@ test_data = [{'商品名称': random_str.get_random_str("商品名称"), '商品
 
 @ddt
 class Goods_Case(Base_Case):
-    # @unittest.skip("跳过")
+    @unittest.skip("跳过")
     @data(*test_data)
     def test_001_goods_category_add(self, data):
         '''添加通用商品'''
@@ -25,6 +25,15 @@ class Goods_Case(Base_Case):
         goods_page.click_goods_btn()
         goods_page.input_goods_info()
         goods_page.click_save_btn()
+
+    def test_002_select_group(self):
+        super().default_login()
+        goods_page = Goods_Page(self.base, data)
+        goods_page.switch_in_goods_menu()
+        goods_page.click_add_btn()
+        goods_page.click_goods_btn()
+
+        # goods_page.select_group()
 
 
 if __name__ == '__main__':
