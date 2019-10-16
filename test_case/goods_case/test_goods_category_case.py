@@ -4,9 +4,9 @@ from test_case.base_case import Base_Case
 from po.pages.goods_menu.goods_category_page import Goods_Category_Page
 from common.get_random_info import RandomData
 
-random_str = RandomData()
-test_data = [{'分类名称': '一级分类{}'.format(random_str.random_pystr(5)), '预期结果': '保存成功'}, ]
-test_data2 = [{'分类名称': '二级分类{}'.format(random_str.random_pystr(5)), '预期结果': '保存成功'}, ]
+rd = RandomData()
+test_data = [{'分类名称': '一级分类{}'.format(rd.rd_pystr(5)), '预期结果': '保存成功'}, ]
+test_data2 = [{'分类名称': '二级分类{}'.format(rd.rd_pystr(5)), '预期结果': '保存成功'}, ]
 
 
 @ddt
