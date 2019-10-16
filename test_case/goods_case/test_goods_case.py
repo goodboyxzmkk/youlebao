@@ -4,10 +4,10 @@ from po.pages.goods_menu.goods_page import Goods_Page
 from test_case.base_case import Base_Case
 from common.get_random_info import RandomData
 
-random_str = RandomData()
-test_data = [{'商品名称': random_str.get_random_str("商品名称"), '商品条码': random_str.random_pystr(15), '售卖价格': 10, '初始化库存': 0,
+rd = RandomData()
+test_data = [{'商品名称': rd.rd_str("商品名称"), '商品条码': rd.rd_pystr(15), '售卖价格': 10, '初始化库存': 0,
               '库存预警数量': 50, '估算成本': 10, '退货手续费': 1, '预期结果': '保存成功'},
-             {'商品名称': random_str.get_random_str("商品名称"), '商品条码': random_str.random_pystr(15), '售卖价格': 10, '初始化库存': 0,
+             {'商品名称': rd.rd_str("商品名称"), '商品条码': rd.rd_pystr(15), '售卖价格': 10, '初始化库存': 0,
               '库存预警数量': 50, '估算成本': 10, '退货手续费': 1, '预期结果': '保存成功'}]
 
 
