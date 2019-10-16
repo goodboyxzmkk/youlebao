@@ -18,9 +18,6 @@ class Login_Case(Base_Case):
         '''用户登录'''
         login_page = Login_Page(self.base, data)
         login_page.run_login()
-        cookies = self.driver.get_cookies()
-        if data['登录成功'] == '是':
-            self.get_cookies(cookies)
 
 
 if __name__ == '__main__':

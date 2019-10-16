@@ -46,9 +46,9 @@ class Logger():
         self.__del_log()
 
     def __del_log(self):
-        '''只保留5天的日志'''
+        '''只保留10天的日志'''
         dirs_list = os.listdir(config_manage.LOG_PATH)  # 获取路径下所有日志文件
-        while len(dirs_list) > 5:
+        while len(dirs_list) > 10:
             file_path = os.path.join(config_manage.LOG_PATH, dirs_list[0])  # 列表中的第一个文件
             os.remove(file_path)
             dirs_list = os.listdir(config_manage.LOG_PATH)
@@ -69,6 +69,6 @@ class Logger():
 if __name__ == '__main__':
     log = Logger()
     log.debug("This is debug")
-    # log.info("This is info")
-    # log.warning("This is warning")
-    # log.error("This is error")
+    log.info("This is info")
+    log.warning("This is warning")
+    log.error("This is error")

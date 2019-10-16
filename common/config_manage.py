@@ -15,16 +15,18 @@ CONIFGS_PATH = os.path.join(PROJECT_PATH, "configs\\")  # 配置文件目录
 def get_yaml_config(file_name='configs.yaml'):
     configpath = os.path.join(PROJECT_PATH, "configs")
     yamlPath = os.path.join(configpath, file_name)  # configName.yaml文件
-    f = open(yamlPath, 'r', encoding='UTF-8')
-    cfg = f.read()  # 读出来是字符串
-    dic = yaml.load(cfg, Loader=yaml.FullLoader)  # 用load方法转字典
+    # f = open(yamlPath, 'r', encoding='UTF-8')
+    # cfg = f.read()  # 读出来是字符串
+    with open(yamlPath, 'r', encoding='UTF-8', errors='ignore') as file:
+        dic = yaml.load(file, Loader=yaml.FullLoader)  # 用load方法转字典
     return dic
 
 
 def get_yaml_page_loc(page_name):
     yamlPath = os.path.join(ELEMENT_PATH, page_name)  # 获取page元素定位目录
-    f = open(yamlPath, 'r', encoding='UTF-8', errors='ignore')
-    dic = yaml.load(f, Loader=yaml.FullLoader)  # 用load方法转字典
+
+    with open(yamlPath, 'r', encoding='UTF-8', errors='ignore') as file:
+        dic = yaml.load(file, Loader=yaml.FullLoader)  # 用load方法转字典
     return dic
 
 

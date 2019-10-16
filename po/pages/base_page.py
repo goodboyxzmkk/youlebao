@@ -11,6 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from common import config_manage
 from common.logger import Logger
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 class Base_Page(object):
@@ -24,7 +25,16 @@ class Base_Page(object):
         except:
             print("log类型不正确")
         self.timeout = 5
-        self.t = 0.5   #监测的时间间隔
+        self.t = 0.5  # 监测的时间间隔
+
+    def find_element2(self, by, loc):
+        for i in range(10):
+            try:
+                ele = self.driver.find_element(by, loc)
+                if ele.is_displayed():
+                    return ele
+            except:
+                time.sleep(0.5)
 
     def find_element(self, by, loc):
         # self.log.info("【find元素】，定位方式：{}, 定位表达式：{}".format(by, loc))
@@ -53,7 +63,6 @@ class Base_Page(object):
         img_name = file_path + date_time + ' ' + methodName + '.png'
         try:
             self.driver.get_screenshot_as_file(img_name)
-            self.imgs.append(self.driver.get_screenshot_as_base64())
         except NameError as e:
             self.driver.get_windows_img()
         self.log.info("【异常截图路径】：" + img_name)
@@ -68,7 +77,7 @@ class Base_Page(object):
     def input(self, by, loc, value):
         '''往输入框输入内容'''
         # self.driver.find_element(by, loc).send_keys(value)
-        self.find_element(by, loc).send_keys(value)
+        self.find_element2(by, loc).send_keys(value)
         self.log.info("【输入】：{} , 定位方式：{} , 定位表达式：{}".format(value, by, loc))
 
     def clear(self, by, loc):
@@ -90,7 +99,7 @@ class Base_Page(object):
 
     def click(self, by, loc):
         '''点击元素'''
-        self.find_element(by, loc).click()
+        self.find_element2(by, loc).click()
         self.log.info("【点击元素】:  定位方式：{} ， 定位表达式：{}".format(by, loc))
 
     def highlight_element(self, by, loc):
@@ -119,17 +128,40 @@ class Base_Page(object):
         '''获取title'''
         return self.driver.title
 
-    def move_to_elemen_and_click(self, by, loc):
-        '''移动鼠标悬停在某元素上并点击'''
-        xm = self.find_element(by, loc)
-        webdriver.ActionChains(self.driver).click(xm).perform()
-        self.log.info("【鼠标悬停】在元素上并点击,定位方式：{} ， 定位表达式：{}".format(by, loc))
-
-    def move_to_element(self, by, loc):
-        '''鼠标悬停操作'''
+    def action_click(self, by, loc):
+        '''移动鼠标在元素上左键点击'''
         ele = self.find_element(by, loc)
-        webdriver.ActionChains(self.driver).move_to_element(ele).perform()
+        action = ActionChains(self.driver)
+        action.click(ele).perform()
+        self.log.info("【鼠标移动】到元素上并左键点击,定位方式：{} ， 定位表达式：{}".format(by, loc))
+
+    def action_coord_click(self, x, y):
+        '''移动鼠标在x, y坐标上点击'''
+        action = ActionChains(self.driver)
+        action.move_by_offset(x, y).perform()
+        self.log.info("【鼠标移动】到，X坐标：{} Y坐标：{} 点击".format(x, y))
+
+    def action_context_click(self, by, loc):
+        '''移动鼠标在元素上右键点击'''
+        ele = self.find_element(by, loc)
+        action = ActionChains(self.driver)
+        action.context_click(ele).perform()
+        self.log.info("【鼠标移动】到元素上并右键点击,定位方式：{} ， 定位表达式：{}".format(by, loc))
+
+    def action_move_to_element(self, by, loc):
+        '''鼠标移动到元素上'''
+        ele = self.find_element(by, loc)
+        action = ActionChains(self.driver)
+        action.move_to_element(ele).perform()
         self.log.info("【鼠标悬停】在元素上,定位方式：{} ， 定位表达式：{}".format(by, loc))
+
+    def action_send_kends(self, by, loc, value):
+        '''发送value到当前焦点的元素'''
+        ele = self.find_element(by, loc)
+        action = ActionChains(self.driver)
+        # action.send_keys_to_element(ele)
+        action.send_keys(ele)
+        self.log.info("【键盘发送】{}到当前焦点的元素,定位方式：{} ， 定位表达式：{}".format(value, by, loc))
 
     def switch_in_iframe(self, index_locator):
         # chrome浏览器——f12 ——console用于显示iframe个数
@@ -144,7 +176,7 @@ class Base_Page(object):
                 self.driver.switch_to.frame(ele)
                 self.log.info("【切换iframe】,iframe表达式：{}".format(index_locator))
         except:
-            self.log.info("iframe切换异常")
+            self.log.error("iframe切换异常")
 
     def switch_out_iframe(self):
         '''切出iframe'''
@@ -160,6 +192,7 @@ class Base_Page(object):
             return False
 
     def assert_alert_info(self, by='xpath', loc='//*[@id="alert"]', expect_value=None):
+        '''封装alert弹窗，传入alert定位及预期结果'''
         try:
             alert = self.find_element(by, loc)
             self.log.info("实际结果：{}".format(alert.text))
@@ -236,12 +269,18 @@ class Base_Page(object):
         self.driver.back()
         self.log.info('【浏览器后退】')
 
+        '''在 开发者工具栏 console 里面执行如下js代码
+        setTimeout(function(){debugger}, 5000)
+        表示在 5000毫秒后，执行 debugger 命令,debug状态有个特性， 界面被冻住， 不管我们怎么点击界面都不会触发事件。
+        '''
+
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("http://192.168.2.106:9999/admin/login.html")
-    base = Base_Page(driver)
+    log = Logger()
+    base = Base_Page(driver, log)
     base.input(By.XPATH, '//*[@id="txtName"]', 'admin')
     base.input(By.XPATH, '//*[@id="txtPwd"]', 'admin')
     base.click(By.XPATH, '//*[@id="fm-login-submit"]')

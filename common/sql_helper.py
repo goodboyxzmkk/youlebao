@@ -45,7 +45,7 @@ class Sql_Helper:
             # 执行sql语句
             cur.execute(sql)
             # 提交到数据库
-            self.conn.commit()  # update/delete/insert必须要这一步
+            self.conn.commit()  # update/delete/insert必须要执行这一步
         except:
             # 发生错误时回滚
             self.conn.rollback()

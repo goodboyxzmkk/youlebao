@@ -52,6 +52,15 @@ class Goods_Page():
 
     def assert_add_info(self):
         self.base.assert_alert_info(expect_value=self.data['预期结果'])
-        result = self.sql_assert.ExecQuery(goods_loc['sql断言'] + "'" + self.data["分类名称"] + "'")
+        result = self.sql_assert.ExecQuery(goods_loc['sql断言'] + "'" + self.data["商品名称"] + "'")
         self.base.log.info("数据库检查结果：{}".format(result))
-        assert result[0]['ClassName'] == self.data['分类名称']
+        assert result[0]['GoodName'] == self.data['商品名称']
+
+    def select_group(self):
+        self.base.wait(1)
+        self.base.click(By.XPATH, '//*[@id="sltNormalGoodsClassAdd"]/div/div/input')
+        eles = self.base.find_elements(By.XPATH, '//*[@id="sltNormalGoodsClassAdd"]/div/div/ul/li/a')
+        self.base.wait(2)
+        for ele in eles:
+            ele.click()
+            # print(ele.text)

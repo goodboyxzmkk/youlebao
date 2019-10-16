@@ -21,6 +21,7 @@ class Leaguer_Level_Case(Base_Case):
         leaguer_level_page.click_save_btn()
         leaguer_level_page.assert_add_result()
 
+    # @unittest.skip("跳过")
     def test_002_leaguer_level_query(self):
         '''查询会员'''
         super().default_login()
@@ -30,6 +31,7 @@ class Leaguer_Level_Case(Base_Case):
         leaguer_level_page.click_query_btn()
         leaguer_level_page.assert_query_result()
 
+    # @unittest.skip("跳过")
     def test_003_leaguer_level_del(self):
         '''删除会员'''
         super().default_login()

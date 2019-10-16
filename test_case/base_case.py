@@ -40,7 +40,7 @@ class Base_Case(unittest.TestCase):
 
     def tearDown(self) -> None:
         self.end = time.perf_counter()
-        self.log.info('【用例运行时长】: {}秒'.format(self.end - self.start))
+        self.log.info('【用例运行时长】: %.2f秒' % (self.end - self.start))
         self.log.info("====================【{}测试用例结束】====================".format(self._testMethodName))
 
     def default_login(self):
