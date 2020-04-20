@@ -1,8 +1,0 @@
-T = ('c', 'a', 'd', 'b')
-print(T)
-tmp = list(T)
-tmp.sort()
-print(tmp)
-T = tuple(tmp)
-# sorted(T)
-print(T)
