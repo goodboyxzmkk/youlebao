@@ -21,7 +21,7 @@ class Logger():
         fh.setLevel(logging.INFO)
         fh.setFormatter(self.formatter)
 
-        # 级logger 添加hander
+        # 给logger 添加hander
         self.logger.addHandler(fh)
 
         # 创建一个StreamHandler,用于输出到控制台
@@ -47,7 +47,7 @@ class Logger():
 
     def __del_log(self):
         '''只保留10天的日志'''
-        dirs_list = os.listdir(config_manage.LOG_PATH)  # 获取路径下所有日志文件
+        dirs_list = os.listdir(config_manage.LOG_PATH)  # 获取路径下所有日志文件名称
         while len(dirs_list) > 10:
             file_path = os.path.join(config_manage.LOG_PATH, dirs_list[0])  # 列表中的第一个文件
             os.remove(file_path)

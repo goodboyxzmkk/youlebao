@@ -17,9 +17,10 @@ goods = unittest.TestLoader().loadTestsFromTestCase(Goods_Case)
 if __name__ == '__main__':
     # suites = unittest.TestSuite([online_test, login_test, leaguer_level_test])
     suites = unittest.TestSuite()
-    suites.addTests(leaguer_level)
-    suites.addTests(goods_category)
-    suites.addTests(goods)
+    suites.addTests(login)
+    # suites.addTests(leaguer_level)
+    # suites.addTests(goods_category)
+    # suites.addTests(goods)
 
     # now = time.strftime("%Y-%m-%d %H-%M-%S")
     # html_file = config_manage.REPORT_PATH + now + ".html"  #每次生成一份新的测试报告

@@ -4,10 +4,8 @@ from common import config_manage
 from ddt import ddt, data
 import unittest
 
-test_data = [{'用户名': 'admin', '密码': 'admin', '预期结果': '超级管理员(admin)', '登录成功': '是'}, ]
-
-
-# {'用户名': 'admin', '密码': 'error', '预期结果': '用户密码错误（错误码:90002）', '登录成功': '否'}]
+test_data = [{'用户名': 'admin', '密码': 'admin', '预期结果': '超级管理员(admin)', '登录成功': '是'},
+             {'用户名': 'admin', '密码': 'error', '预期结果': '用户密码错误（错误码:90002）', '登录成功': '否'}]
 
 
 @ddt

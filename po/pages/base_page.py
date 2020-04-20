@@ -12,6 +12,8 @@ from selenium.webdriver.common.keys import Keys
 from common import config_manage
 from common.logger import Logger
 from selenium.webdriver.common.action_chains import ActionChains
+import win32api
+import win32con
 
 
 class Base_Page(object):
@@ -164,7 +166,7 @@ class Base_Page(object):
         self.log.info("【键盘发送】{}到当前焦点的元素,定位方式：{} ， 定位表达式：{}".format(value, by, loc))
 
     def switch_in_iframe(self, index_locator):
-        # chrome浏览器——f12 ——console用于显示iframe个数
+        # chrome浏览器——F12 ——console用于显示iframe个数
         # document.getElementsByTagName('iframe').length
         '''切入iframe,参数为索引或xpath定位'''
         try:
@@ -237,11 +239,18 @@ class Base_Page(object):
         self.driver.execute_script(js)
         self.log.info("滚动到底部")
 
-    def kill_driver(self, driver_name):
-        '''结束浏览器进程'''
+    def win32_slide_end(self, x=-1):
+        '''使用pywin32向下滚动到底1个单位位置，前边两个参数默认0，正数为向上滚动，负数为向下滚动
+           缺点：鼠标要人工移动到当前页面
+        '''
+        for i in range(1, 1500):
+            win32api.mouse_event(win32con.MOUSEEVENTF_WHEEL, 0, 0, x)
+
+    def kill_driver(self, driver_name="chrome.exe"):
+        '''结束chrome浏览器进程'''
         if driver_name[-4:].lower() != ".exe":
             driver_name += ".exe"
-        os.system("taskkill /f /im " + driver_name)
+        os.system("taskkill /F /IM " + driver_name)
         self.log.info("【结束浏览器进程】")
 
     def select_by_index(self, by, loc, index=0):

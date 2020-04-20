@@ -19,7 +19,11 @@ class Driver_Manager():
             self.driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=options)
             return self.driver
         else:  # chrome
+            # option = webdriver.ChromeOptions()
+            # option.add_argument('headless')  # 静默模式
+            # self.driver = webdriver.Chrome(
+            #     "C:\\Users\\Ty\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe", chrome_options=option)
             self.driver = webdriver.Chrome(
-                "C:\\Users\\Ty\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
+                r"C:\Users\Ty\AppData\Local\Google\Chrome\Application\chromedriver.exe")
             self.driver.maximize_window()
             return self.driver

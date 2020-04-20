@@ -34,7 +34,7 @@ class Base_Case(unittest.TestCase):
         self.base = Base_Page(self.driver, self.log)
         self.log.info("【操作系统】：" + str(platform.platform()))
         self.log.info("【浏览器】：" + login_loc['browserType'])
-        self.driver.get(login_loc['URL_TEST'])
+        self.driver.get(login_loc['URL'])
         self.log.info("【打开URL】：" + login_loc['URL_TEST'])
         self.base.wait(1)
 
