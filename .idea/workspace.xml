@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96cac2cb-b77d-4b8b-85bb-227068b8ff20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/driver_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driver_manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/other/other/autoit_upfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/other/other/autoit_upfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/po/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_custom_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_custom_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/base_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/base_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_loginCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_loginCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/youlebao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/youlebao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config_manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/ddtt.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/ddtt.xlsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="youlebao" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -123,6 +118,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "goodboyxzmkk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/goodboyxzmkk/youlebao.git",
+    "accountId": "d70aff0a-660d-48ba-82f0-0469fc220b49"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/po/pages/base_page.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/run_all_case.py" root0="SKIP_INSPECTION" />
@@ -186,12 +193,16 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1447" />
     <option name="y" value="330" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="2pSeSANR1sBBYTw1bu3Rq7rRcUI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,18 +261,24 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/other/study" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.read_file.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programs\youlebao\common\other\other" />
@@ -278,21 +295,10 @@
       <recent name="D:\Programs\youlebao\test_case\goods_case" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.readfile">
+  <component name="RunManager" selected="Python.read_file">
     <configuration name="autoit_upfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -313,30 +319,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="youlebao" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/other/other" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/other/other/login_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="login_test(1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -357,8 +342,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="read_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="readfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -381,6 +390,7 @@
     </configuration>
     <configuration name="run_custom_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -402,22 +412,31 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.read_file" />
       <item itemvalue="Python.run_custom_case" />
-      <item itemvalue="Python.login_test" />
       <item itemvalue="Python.login_test(1)" />
       <item itemvalue="Python.autoit_upfile" />
       <item itemvalue="Python.readfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.read_file" />
         <item itemvalue="Python.readfile" />
         <item itemvalue="Python.autoit_upfile" />
         <item itemvalue="Python.run_custom_case" />
         <item itemvalue="Python.login_test(1)" />
-        <item itemvalue="Python.login_test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -564,6 +583,7 @@
       <workItem from="1586497919719" duration="603000" />
       <workItem from="1587361698847" duration="1703000" />
       <workItem from="1587387885206" duration="1625000" />
+      <workItem from="1732763902142" duration="1562000" />
     </task>
     <task id="LOCAL-00001" summary="初始版">
       <created>1564301292171</created>
@@ -738,7 +758,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
@@ -773,9 +793,7 @@
         <breakpoint enabled="true" type="jupyter-exception">
           <properties exception="BaseException" />
         </breakpoint>
-        <breakpoint enabled="true" type="javascript-exception">
-          <properties />
-        </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -787,57 +805,57 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/youlebao$read_file.coverage" NAME="read_file Coverage Results" MODIFIED="1564562032684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_0002_onlineCase_py.coverage" NAME="Unittests in test_0002_onlineCase.py Coverage Results" MODIFIED="1562636324847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix1_py.coverage" NAME="pytest in test_fix1.py Coverage Results" MODIFIED="1562311394155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
-    <SUITE FILE_PATH="coverage/youlebao$3.coverage" NAME="3元组 Coverage Results" MODIFIED="1567502742488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_f1_py.coverage" NAME="pytest in test_f1.py Coverage Results" MODIFIED="1562130451675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
-    <SUITE FILE_PATH="coverage/youlebao$config_manage.coverage" NAME="config_manage Coverage Results" MODIFIED="1562583186691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix2_py.coverage" NAME="pytest in test_fix2.py Coverage Results" MODIFIED="1562129829404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
-    <SUITE FILE_PATH="coverage/youlebao$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1583134785091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
-    <SUITE FILE_PATH="coverage/youlebao$study.coverage" NAME="study Coverage Results" MODIFIED="1567502302829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$.coverage" NAME="鼠标点击 Coverage Results" MODIFIED="1567497909099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$login_test_1_.coverage" NAME="login_test(1) Coverage Results" MODIFIED="1576827689457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_case_py.coverage" NAME="Unittests in test_goods_case.py Coverage Results" MODIFIED="1567670048519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
+    <SUITE FILE_PATH="coverage/youlebao$99.coverage" NAME="99乘法表 Coverage Results" MODIFIED="1567503575920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper Coverage Results" MODIFIED="1562726664165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1562683660118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/youlebao$loginCase.coverage" NAME="loginCase Coverage Results" MODIFIED="1562121475410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$v_code.coverage" NAME="v_code Coverage Results" MODIFIED="1573723009636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_loginCase_py.coverage" NAME="pytest in loginCase.py Coverage Results" MODIFIED="1562512719427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$read_file.coverage" NAME="read_file 覆盖结果" MODIFIED="1732764779204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$getSign.coverage" NAME="getSign Coverage Results" MODIFIED="1575370931453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$3.coverage" NAME="3元组 Coverage Results" MODIFIED="1567502742488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$goods_page.coverage" NAME="goods_page Coverage Results" MODIFIED="1564731692737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po/pages/goods_menu" />
+    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1576834834396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_pytest_test2_py.coverage" NAME="pytest in pytest_test2.py Coverage Results" MODIFIED="1562126161212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_loginCase_py.coverage" NAME="Unittests in test_loginCase.py Coverage Results" MODIFIED="1564557578582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$mytest3.coverage" NAME="mytest3 Coverage Results" MODIFIED="1568629176964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1563532516773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/youlebao$7.coverage" NAME="7装饰器 Coverage Results" MODIFIED="1568617763713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_category_case_py.coverage" NAME="Unittests in test_goods_category_case.py Coverage Results" MODIFIED="1564496920507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix1_py.coverage" NAME="pytest in test_fix1.py Coverage Results" MODIFIED="1562311394155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
+    <SUITE FILE_PATH="coverage/youlebao$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1576651635306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$logger.coverage" NAME="logger Coverage Results" MODIFIED="1566785933387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$my_test.coverage" NAME="my_test Coverage Results" MODIFIED="1563265257897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$config_manage.coverage" NAME="config_manage Coverage Results" MODIFIED="1562583186691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$mysql_helper.coverage" NAME="mysql_helper Coverage Results" MODIFIED="1562726585083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$5.coverage" NAME="5时间常用操作 Coverage Results" MODIFIED="1567504028406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$base_page.coverage" NAME="base_page Coverage Results" MODIFIED="1565076253856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po/pages" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_fix2_py.coverage" NAME="pytest in test_fix2.py Coverage Results" MODIFIED="1562129829404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_login_test_py.coverage" NAME="pytest in pytest_test.py Coverage Results" MODIFIED="1562125905209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_0001_loginCase_py.coverage" NAME="pytest in test_0001_loginCase.py Coverage Results" MODIFIED="1562551945963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_login_py.coverage" NAME="Unittests in test_cookies.py Coverage Results" MODIFIED="1564651158637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_leaguer_level_case_py.coverage" NAME="Unittests in test_leaguer_level_case.py Coverage Results" MODIFIED="1567668717595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_loginCase_py.coverage" NAME="Unittests in test_loginCase.py Coverage Results" MODIFIED="1564557578582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$my_test.coverage" NAME="my_test Coverage Results" MODIFIED="1563265257897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_category_case_py.coverage" NAME="Unittests in test_goods_category_case.py Coverage Results" MODIFIED="1564496920507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
-    <SUITE FILE_PATH="coverage/youlebao$4lambda.coverage" NAME="4lambda Coverage Results" MODIFIED="1568184703432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_case_py.coverage" NAME="Unittests in test_goods_case.py Coverage Results" MODIFIED="1567670048519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_login_test_py.coverage" NAME="pytest in pytest_test.py Coverage Results" MODIFIED="1562125905209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_pytest_test2_py.coverage" NAME="pytest in pytest_test2.py Coverage Results" MODIFIED="1562126161212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1562683660118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1576651635306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$5.coverage" NAME="5时间常用操作 Coverage Results" MODIFIED="1567504028406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1576834834396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$99.coverage" NAME="99乘法表 Coverage Results" MODIFIED="1567503575920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$loginCase.coverage" NAME="loginCase Coverage Results" MODIFIED="1562121475410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$.coverage" NAME="鼠标点击 Coverage Results" MODIFIED="1567497909099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$my_test2.coverage" NAME="my_test2 Coverage Results" MODIFIED="1563267429053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$logging_config.coverage" NAME="logging_config Coverage Results" MODIFIED="1562563868829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$6sys.coverage" NAME="6sys模块 Coverage Results" MODIFIED="1567504329064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1563532516773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/youlebao$__1_.coverage" NAME="鼠标点击 (1) Coverage Results" MODIFIED="1567578287363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$mytest3.coverage" NAME="mytest3 Coverage Results" MODIFIED="1568629176964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_loginCase_py.coverage" NAME="pytest in loginCase.py Coverage Results" MODIFIED="1562512719427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_0001_loginCase_py.coverage" NAME="Unittests in test_0001_loginCase.py Coverage Results" MODIFIED="1562652955154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/youlebao$autoit_upfile.coverage" NAME="autoit_upfile Coverage Results" MODIFIED="1578472995968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$163_com.coverage" NAME="163.com Coverage Results" MODIFIED="1564311723669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$v_code.coverage" NAME="v_code Coverage Results" MODIFIED="1573723009636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$login_test_1_.coverage" NAME="login_test(1) Coverage Results" MODIFIED="1576827689457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$logger.coverage" NAME="logger Coverage Results" MODIFIED="1566785933387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$aijialogin.coverage" NAME="aijialogin Coverage Results" MODIFIED="1567144393713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$getSign.coverage" NAME="getSign Coverage Results" MODIFIED="1575370931453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$pytest_in_logint_test_py.coverage" NAME="pytest in login_test.py Coverage Results" MODIFIED="1562120391042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$logging_config.coverage" NAME="logging_config Coverage Results" MODIFIED="1562563868829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1562660073450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$mysql_helper.coverage" NAME="mysql_helper Coverage Results" MODIFIED="1562726585083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$get_random_info.coverage" NAME="get_random_info Coverage Results" MODIFIED="1564501290769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/youlebao$7.coverage" NAME="7装饰器 Coverage Results" MODIFIED="1568617763713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
-    <SUITE FILE_PATH="coverage/youlebao$aijiatext2.coverage" NAME="aijiatext2 Coverage Results" MODIFIED="1568715043061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$4lambda.coverage" NAME="4lambda Coverage Results" MODIFIED="1568184703432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
+    <SUITE FILE_PATH="coverage/youlebao$autoit_upfile.coverage" NAME="autoit_upfile Coverage Results" MODIFIED="1578472995968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_0002_onlineCase_py.coverage" NAME="Unittests in test_0002_onlineCase.py Coverage Results" MODIFIED="1562636324847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$6sys.coverage" NAME="6sys模块 Coverage Results" MODIFIED="1567504329064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1583134785091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/study" />
+    <SUITE FILE_PATH="coverage/youlebao$study.coverage" NAME="study Coverage Results" MODIFIED="1567502302829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$pytest_in_logint_test_py.coverage" NAME="pytest in login_test.py Coverage Results" MODIFIED="1562120391042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_leaguer_level_case_py.coverage" NAME="Unittests in test_leaguer_level_case.py Coverage Results" MODIFIED="1567668717595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
+    <SUITE FILE_PATH="coverage/youlebao$my_test2.coverage" NAME="my_test2 Coverage Results" MODIFIED="1563267429053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$aijialogin.coverage" NAME="aijialogin Coverage Results" MODIFIED="1567144393713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_cookies2_py.coverage" NAME="Unittests in test_cookies2.py Coverage Results" MODIFIED="1564651922954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$base_page.coverage" NAME="base_page Coverage Results" MODIFIED="1565076253856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po/pages" />
-    <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper Coverage Results" MODIFIED="1562726664165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$__1_.coverage" NAME="鼠标点击 (1) Coverage Results" MODIFIED="1567578287363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
+    <SUITE FILE_PATH="coverage/youlebao$163_com.coverage" NAME="163.com Coverage Results" MODIFIED="1564311723669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
+    <SUITE FILE_PATH="coverage/youlebao$aijiatext2.coverage" NAME="aijiatext2 Coverage Results" MODIFIED="1568715043061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">

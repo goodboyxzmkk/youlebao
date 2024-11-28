@@ -3,13 +3,13 @@ import yaml, json
 import os
 
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), ".."))  # 项目路径
-REPORT_PATH = os.path.join(PROJECT_PATH, "test_report\\report\\")  # 测试报告目录
-SCREEN_PATH = os.path.join(PROJECT_PATH, "test_report\\screen\\")  # 错误截图目录
-LOG_PATH = os.path.join(PROJECT_PATH, "test_report\\logs\\")  # 日志目录
-TESTCASE_PATH = os.path.join(PROJECT_PATH, "test_case\\")  # 测试用例目录
-TESTDATA_PATH = os.path.join(PROJECT_PATH, "test_data\\")  # 测试数据目录
-ELEMENT_PATH = os.path.join(PROJECT_PATH, "po\\page_loc\\")  # 页面元素定位目录
-CONIFGS_PATH = os.path.join(PROJECT_PATH, "configs\\")  # 配置文件目录
+REPORT_PATH = os.path.join(PROJECT_PATH, "test_report/report/")  # 测试报告目录
+SCREEN_PATH = os.path.join(PROJECT_PATH, "test_report/screen/")  # 错误截图目录
+LOG_PATH = os.path.join(PROJECT_PATH, "test_report/logs/")  # 日志目录
+TESTCASE_PATH = os.path.join(PROJECT_PATH, "test_case/")  # 测试用例目录
+TESTDATA_PATH = os.path.join(PROJECT_PATH, "test_data/")  # 测试数据目录
+ELEMENT_PATH = os.path.join(PROJECT_PATH, "po/page_loc/")  # 页面元素定位目录
+CONIFGS_PATH = os.path.join(PROJECT_PATH, "configs/")  # 配置文件目录
 
 
 def get_yaml_config(file_name='configs.yaml'):

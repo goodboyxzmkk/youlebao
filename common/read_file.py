@@ -1,46 +1,50 @@
 # coding:utf-8
 import xlrd, csv
-from datetime import datetime
-from xlrd import xldate_as_tuple
 from common import config_manage
+import openpyxl
+import os
+from datetime import datetime
 
 
 def get_data_excel(excelfile_Name, sheetName='Sheet1'):
     excelfile_path = config_manage.TESTDATA_PATH + excelfile_Name + ".xlsx"
-    # excelfile_path = excelfile_Name
-    book = xlrd.open_workbook(excelfile_path)
-    table = book.sheet_by_name(sheetName)
-    # 获取第一行作为key值
-    keys = table.row_values(0)
+
+    # 检查文件是否存在
+    if not os.path.exists(excelfile_path):
+        raise FileNotFoundError(f"文件 {excelfile_path} 不存在")
+
+    # 打开 Excel 文件
+    workbook = openpyxl.load_workbook(excelfile_path)
+
+    # 获取指定的工作表
+    sheet = workbook[sheetName]
+
+    # 获取第一行作为 key 值
+    keys = [cell.value for cell in sheet[1]]
+
     # 获取总行数
-    rowNum = table.nrows
+    rowNum = sheet.max_row
+
     # 获取总列数
-    colNum = table.ncols
+    colNum = sheet.max_column
+
     if rowNum <= 1:
         print("总行数小于1")
     else:
         r = []
-        j = 1
-        for i in range(rowNum - 1):
+        for j in range(2, rowNum + 1):  # 从第二行开始读取数据
             s = {}
-            # 从第二行取对应values值
-            values = table.row_values(j)
             for x in range(colNum):
-                ctype = table.cell(j, x).ctype  # 表格的数据类型
-                cell = table.cell_value(j, x)
-                if ctype == 2 and cell % 1 == 0:  # 如果是整形
+                cell = sheet.cell(row=j, column=x + 1).value
+                if isinstance(cell, float) and cell.is_integer():  # 如果是整型
                     cell = int(cell)
-                elif ctype == 3:
-                    # 转成datetime对象
-                    date = datetime(*xldate_as_tuple(cell, 0))
-                    cell = date.strftime('%Y/%d/%m %H:%M:%S')
-                elif ctype == 4:
-                    cell = True if cell == 1 else False
+                elif isinstance(cell, datetime):  # 如果是日期时间
+                    cell = cell.strftime('%Y/%d/%m %H:%M:%S')
+                elif isinstance(cell, bool):  # 如果是布尔值
+                    cell = cell
                 s[keys[x]] = cell
             r.append(s)
-            j += 1
         return r
-
 
 def get_data_csv(csvfile_Name):
     csvfile_path = config_manage.TESTDATA_PATH + csvfile_Name + '.csv'
