@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 from common import config_manage
 
-online_loc = config_manage.get_yaml_page_loc('online_loc\\online_loc.yaml')
+online_loc = config_manage.get_yaml_page_loc('online_loc/online_loc.yaml')
 
 
 class Online_Page():

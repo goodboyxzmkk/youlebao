@@ -1,5 +1,5 @@
 sqlServer:
-  host: localhost
+  host: 192.168.6.201
   port: 1433
   user: sa
   pwd: ych123456.

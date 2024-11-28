@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cac2cb-b77d-4b8b-85bb-227068b8ff20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96cac2cb-b77d-4b8b-85bb-227068b8ff20" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/HTMLTestRunner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/youlebao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/youlebao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config_manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/ddtt.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/ddtt.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/driver_manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driver_manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sql_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/sql_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/page_loc/leaguer_loc/leaguer_level_loc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/po/page_loc/leaguer_loc/leaguer_level_loc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/page_loc/login_loc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/po/page_loc/login_loc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/pages/goods_menu/goods_category_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/goods_menu/goods_category_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/pages/goods_menu/goods_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/goods_menu/goods_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/po/pages/online_menu/online_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po/pages/online_menu/online_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_custom_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_custom_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/base_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/base_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_loginCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_loginCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_report/report/TestResult_Report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,18 +130,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "goodboyxzmkk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;goodboyxzmkk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/goodboyxzmkk/youlebao.git",
-    "accountId": "d70aff0a-660d-48ba-82f0-0469fc220b49"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/goodboyxzmkk/youlebao.git&quot;,
+    &quot;accountId&quot;: &quot;d70aff0a-660d-48ba-82f0-0469fc220b49&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/po/pages/base_page.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/run_all_case.py" root0="SKIP_INSPECTION" />
@@ -193,9 +205,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1447" />
     <option name="y" value="330" />
@@ -267,19 +279,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python tests for test_leaguer_level_case.Leaguer_Level_Case.executor": "Run",
+    "Python 测试.Python tests for test_leaguer_level_case.Leaguer_Level_Case.test_002_leaguer_level_query.executor": "Run",
+    "Python 测试.Python tests for test_leaguer_level_case.Leaguer_Level_Case.test_003_leaguer_level_del.executor": "Run",
+    "Python 测试.Python tests in test_leaguer_level_case.py.executor": "Run",
+    "Python 测试.Python tests in test_loginCase.py.executor": "Debug",
+    "Python 测试.test_leaguer_level_case.Leaguer_Level_Case.test_001_leaguer_level_add 的 Python 测试.executor": "Run",
+    "Python.leaguer_level_page.executor": "Debug",
     "Python.read_file.executor": "Run",
+    "Python.run_custom_case.executor": "Run",
+    "Python.sql_helper.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/apple/python/youlebao/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="D:\Programs\youlebao\common\other\study" />
+      <recent name="D:\Programs\youlebao\common\other\other" />
+      <recent name="D:\Programs\youlebao\common\other" />
+      <recent name="D:\Programs\youlebao\common" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programs\youlebao\common\other\other" />
       <recent name="D:\Programs\youlebao\common\other\study" />
@@ -287,16 +317,9 @@
       <recent name="D:\Programs\youlebao\test_case\online_case" />
       <recent name="D:\Programs\youlebao\po\pages\online_menu" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programs\youlebao\common\other\study" />
-      <recent name="D:\Programs\youlebao\common\other\other" />
-      <recent name="D:\Programs\youlebao\common\other" />
-      <recent name="D:\Programs\youlebao\common" />
-      <recent name="D:\Programs\youlebao\test_case\goods_case" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.read_file">
-    <configuration name="autoit_upfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run_custom_case">
+    <configuration name="leaguer_level_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="youlebao" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,12 +328,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/other/other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/po/pages/leaguer_menu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/other/other/autoit_upfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/po/pages/leaguer_menu/leaguer_level_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,76 +342,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login_test(1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="youlebao" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/other/other" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/other/other/login_test(1).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="youlebao" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="readfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="youlebao" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/other/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/other/study/readfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_custom_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_custom_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="youlebao" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -411,20 +365,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sql_helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sql_helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_leaguer_level_case.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/leaguer_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/leaguer_case/test_leaguer_level_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_leaguer_level_case.Leaguer_Level_Case.test_001_leaguer_level_add 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="youlebao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/leaguer_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_leaguer_level_case.Leaguer_Level_Case.test_001_leaguer_level_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.read_file" />
+      <item itemvalue="Python.leaguer_level_page" />
+      <item itemvalue="Python.sql_helper" />
       <item itemvalue="Python.run_custom_case" />
-      <item itemvalue="Python.login_test(1)" />
-      <item itemvalue="Python.autoit_upfile" />
-      <item itemvalue="Python.readfile" />
+      <item itemvalue="Python 测试.test_leaguer_level_case.Leaguer_Level_Case.test_001_leaguer_level_add 的 Python 测试" />
+      <item itemvalue="Python 测试.Python tests in test_leaguer_level_case.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_file" />
-        <item itemvalue="Python.readfile" />
-        <item itemvalue="Python.autoit_upfile" />
         <item itemvalue="Python.run_custom_case" />
-        <item itemvalue="Python.login_test(1)" />
+        <item itemvalue="Python 测试.Python tests in test_leaguer_level_case.py" />
+        <item itemvalue="Python 测试.test_leaguer_level_case.Leaguer_Level_Case.test_001_leaguer_level_add 的 Python 测试" />
+        <item itemvalue="Python.leaguer_level_page" />
+        <item itemvalue="Python.sql_helper" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +592,9 @@
       <workItem from="1586497919719" duration="603000" />
       <workItem from="1587361698847" duration="1703000" />
       <workItem from="1587387885206" duration="1625000" />
-      <workItem from="1732763902142" duration="1562000" />
+      <workItem from="1732763902142" duration="8836000" />
+      <workItem from="1732779153195" duration="56000" />
+      <workItem from="1732779220149" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="初始版">
       <created>1564301292171</created>
@@ -683,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1571208497578</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Default Changelist">
+      <option name="closed" value="true" />
+      <created>1732765705505</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732765705505</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -772,7 +791,8 @@
     <MESSAGE value="修改日志方法，只保留10天的日志" />
     <MESSAGE value="优化" />
     <MESSAGE value="优化随机生成数据代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化随机生成数据代码" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,20 +826,21 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_test_f1_py.coverage" NAME="pytest in test_f1.py Coverage Results" MODIFIED="1562130451675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/pytest_fixture" />
-    <SUITE FILE_PATH="coverage/youlebao$.coverage" NAME="鼠标点击 Coverage Results" MODIFIED="1567497909099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$login_test_1_.coverage" NAME="login_test(1) Coverage Results" MODIFIED="1576827689457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
-    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_case_py.coverage" NAME="Unittests in test_goods_case.py Coverage Results" MODIFIED="1567670048519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
+    <SUITE FILE_PATH="coverage/youlebao$.coverage" NAME=" 覆盖结果" MODIFIED="1732783383626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/leaguer_case" />
     <SUITE FILE_PATH="coverage/youlebao$99.coverage" NAME="99乘法表 Coverage Results" MODIFIED="1567503575920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
-    <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper Coverage Results" MODIFIED="1562726664165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_goods_case_py.coverage" NAME="Unittests in test_goods_case.py Coverage Results" MODIFIED="1567670048519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/goods_case" />
+    <SUITE FILE_PATH="coverage/youlebao$sql_helper.coverage" NAME="sql_helper 覆盖结果" MODIFIED="1732780246784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1562683660118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/youlebao$loginCase.coverage" NAME="loginCase Coverage Results" MODIFIED="1562121475410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$v_code.coverage" NAME="v_code Coverage Results" MODIFIED="1573723009636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_loginCase_py.coverage" NAME="pytest in loginCase.py Coverage Results" MODIFIED="1562512719427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/youlebao$leaguer_level_page.coverage" NAME="leaguer_level_page 覆盖结果" MODIFIED="1732781334230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po/pages/leaguer_menu" />
     <SUITE FILE_PATH="coverage/youlebao$read_file.coverage" NAME="read_file 覆盖结果" MODIFIED="1732764779204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/youlebao$getSign.coverage" NAME="getSign Coverage Results" MODIFIED="1575370931453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />
     <SUITE FILE_PATH="coverage/youlebao$3.coverage" NAME="3元组 Coverage Results" MODIFIED="1567502742488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other" />
     <SUITE FILE_PATH="coverage/youlebao$goods_page.coverage" NAME="goods_page Coverage Results" MODIFIED="1564731692737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/po/pages/goods_menu" />
-    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case Coverage Results" MODIFIED="1576834834396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/youlebao$run_custom_case.coverage" NAME="run_custom_case 覆盖结果" MODIFIED="1732786556413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/youlebao$pytest_in_pytest_test2_py.coverage" NAME="pytest in pytest_test2.py Coverage Results" MODIFIED="1562126161212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$Unittests_in_test_loginCase_py.coverage" NAME="Unittests in test_loginCase.py Coverage Results" MODIFIED="1564557578582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/youlebao$mytest3.coverage" NAME="mytest3 Coverage Results" MODIFIED="1568629176964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/other/other" />

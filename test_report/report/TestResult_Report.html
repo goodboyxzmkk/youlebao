@@ -420,9 +420,9 @@ function hide_img(obj){
 </script>
 <div class='heading'>
 <h1>游乐宝_Web自动化测试报告</h1>
-<p class='attribute'><strong>开始时间:</strong> 2019-12-20 17:40:35</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:10.911566</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>:1 <span class="tj">通过率</span>:100.0%</p>
+<p class='attribute'><strong>开始时间:</strong> 2024-11-28 17:35:56</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:41.212795</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>:3 <span class="tj">通过率</span>:100.0%</p>
 
 <p class='description'>用例执行情况:</p>
 </div>
@@ -436,11 +436,11 @@ function hide_img(obj){
 
 <div id='show_detail_line' style=" float: left;  width: 100%;">
 <a class="abstract detail_button" href='javascript:showCase(0,1)'>概要[100.00%]</a>
-<a class="passed  detail_button" href='javascript:showCase(1,1)'>通过[1]</a>
+<a class="passed  detail_button" href='javascript:showCase(1,1)'>通过[3]</a>
 <a class="failed  detail_button" href='javascript:showCase(2,1)'>失败[0]</a>
 <a class="errored  detail_button" href='javascript:showCase(3,1)'>错误[0]</a>
 <a class="skiped  detail_button"  href='javascript:showCase(4,1)'>跳过[0]</a>
-<a class="all detail_button" href='javascript:showCase(5,1)'>所有[1]</a>
+<a class="all detail_button" href='javascript:showCase(5,1)'>所有[3]</a>
 </div>
 
 <table id='result_table'>
@@ -464,17 +464,17 @@ function hide_img(obj){
 </tr>
 
 <tr class='passClass'>
-    <td>test_case.test_loginCase.Login_Case</td>
-    <td>1</td>
-    <td>1</td>
+    <td>test_case.leaguer_case.test_leaguer_level_case.Leaguer_Level_Case</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1.1',1)">详情</a></td>
+    <td><a href="javascript:showClassDetail('c1.1',3)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
 <tr id='pt1.1.1' class='hiddenRow'>
-    <td ><div class='testcase'>test_001_login_case_1: 用户登录</div></td>
+    <td ><div class='testcase'>test_001_leaguer_level_add: 新增会员</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -489,20 +489,148 @@ function hide_img(obj){
         </div>
         <pre>
         
-pt1.1.1: [2019-12-20 17:40:39,658] - YCH - INFO - ============【test_001_login_case_1测试用例开始】====================
-[2019-12-20 17:40:39,661] - YCH - INFO - 【操作系统】：Windows-10-10.0.17134-SP0
-[2019-12-20 17:40:39,662] - YCH - INFO - 【浏览器】：chrome
-[2019-12-20 17:40:40,584] - YCH - INFO - 【打开URL】：http://localhost:9999/admin/
-[2019-12-20 17:40:41,586] - YCH - INFO - 【等待】:1秒
-[2019-12-20 17:40:41,695] - YCH - INFO - 【输入】：admin , 定位方式：xpath , 定位表达式：//*[@id="txtName"]
-[2019-12-20 17:40:41,776] - YCH - INFO - 【输入】：admin , 定位方式：xpath , 定位表达式：//*[@id="txtPwd"]
-[2019-12-20 17:40:41,852] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="fm-login-submit"]
-[2019-12-20 17:40:43,853] - YCH - INFO - 【等待】:2秒
-[2019-12-20 17:40:43,854] - YCH - INFO - 【获取元素文本】： 定位方式：xpath ， 定位表达式：//span[@class="userinfo_pox"]
-[2019-12-20 17:40:43,899] - YCH - INFO - 【实际结果】 ：超级管理员(admin)  
-[2019-12-20 17:40:43,899] - YCH - INFO - 【预期结果】 ：超级管理员(admin)
-[2019-12-20 17:40:43,900] - YCH - INFO - 【用例运行时长】: 4.24秒
-[2019-12-20 17:40:43,901] - YCH - INFO - ====================【test_001_login_case_1测试用例结束】====================
+pt1.1.1: [2024-11-28 17:35:58,670] - YCH - INFO - ============【test_001_leaguer_level_add测试用例开始】====================
+[2024-11-28 17:35:58,699] - YCH - INFO - 【操作系统】：macOS-13.6.3-x86_64-i386-64bit
+[2024-11-28 17:35:58,702] - YCH - INFO - 【浏览器】：chrome
+[2024-11-28 17:35:59,582] - YCH - INFO - 【打开URL】：http://192.168.6.201:9999/admin/
+[2024-11-28 17:36:00,605] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:00,778] - YCH - INFO - 【输入】：201 , 定位方式：xpath , 定位表达式：//*[@id="txtName"]
+[2024-11-28 17:36:00,826] - YCH - INFO - 【输入】：1 , 定位方式：xpath , 定位表达式：//*[@id="txtPwd"]
+[2024-11-28 17:36:00,895] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="fm-login-submit"]
+[2024-11-28 17:36:02,899] - YCH - INFO - 【等待】:2秒
+[2024-11-28 17:36:02,899] - YCH - INFO - 【默认登录成功】
+[2024-11-28 17:36:03,905] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:03,965] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="mumu_group100001100"]
+[2024-11-28 17:36:04,079] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="pleft_100001100"]
+[2024-11-28 17:36:05,082] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:05,144] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="left_100001100"]
+[2024-11-28 17:36:05,236] - YCH - INFO - 【切换iframe】,iframe表达式：//*[contains(@src,"LgLeveSet.html")]
+[2024-11-28 17:36:08,241] - YCH - INFO - 【等待】:3秒
+[2024-11-28 17:36:08,351] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnAdd"]
+[2024-11-28 17:36:08,714] - YCH - INFO - 【输入】：atuo级别 , 定位方式：xpath , 定位表达式：//*[@id="txtName"]
+[2024-11-28 17:36:09,431] - YCH - INFO - 【清空并输入】：10 , 定位方式：xpath , 定位表达式：//*[@id="txtRejoinMoney"]
+[2024-11-28 17:36:10,123] - YCH - INFO - 【清空并输入】：10 , 定位方式：xpath , 定位表达式：//*[@id="txtSupplementCardMoney"]
+[2024-11-28 17:36:10,810] - YCH - INFO - 【清空并输入】：2 , 定位方式：xpath , 定位表达式：//*[@id="txtHeapcentExpireTime"]
+[2024-11-28 17:36:11,510] - YCH - INFO - 【清空并输入】：1 , 定位方式：xpath , 定位表达式：//*[@id="txtUnJoinRent"]
+[2024-11-28 17:36:12,199] - YCH - INFO - 【清空并输入】：2 , 定位方式：xpath , 定位表达式：//*[@id="txtChangeMoney"]
+[2024-11-28 17:36:12,246] - YCH - INFO - 【输入】：备注1 , 定位方式：xpath , 定位表达式：//*[@id="txtSumary"]
+[2024-11-28 17:36:14,251] - YCH - INFO - 【等待】:2秒
+[2024-11-28 17:36:14,363] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnSave"]
+[2024-11-28 17:36:14,543] - YCH - INFO - 【获取元素文本】： 定位方式：xpath ， 定位表达式：//*[@id="alert"]
+[2024-11-28 17:36:14,569] - YCH - INFO - 【保存提示文本】:×
+数据保存成功！ (3)
+[2024-11-28 17:36:14,685] - YCH - INFO - 【数据库检查结果】:[{'ID': UUID('3aca476e-3a25-4112-85d7-b236012219dc'), 'LevelName': 'atuo级别'}]
+[2024-11-28 17:36:14,686] - YCH - INFO - 断言成功，数据库存在该会员级别：atuo级别
+[2024-11-28 17:36:14,686] - YCH - INFO - 【用例运行时长】: 16.02秒
+[2024-11-28 17:36:14,687] - YCH - INFO - ====================【test_001_leaguer_level_add测试用例结束】====================
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='pt1.1.2' class='hiddenRow'>
+    <td ><div class='testcase'>test_002_leaguer_level_query: 查询会员</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1.2')" >
+        通过</a></span>
+
+    <div id='div_pt1.1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1.2: [2024-11-28 17:36:14,687] - YCH - INFO - ============【test_002_leaguer_level_query测试用例开始】====================
+[2024-11-28 17:36:14,689] - YCH - INFO - 【操作系统】：macOS-13.6.3-x86_64-i386-64bit
+[2024-11-28 17:36:14,689] - YCH - INFO - 【浏览器】：chrome
+[2024-11-28 17:36:14,784] - YCH - INFO - 【打开URL】：http://192.168.6.201:9999/admin/
+[2024-11-28 17:36:15,790] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:15,925] - YCH - INFO - 【输入】：201 , 定位方式：xpath , 定位表达式：//*[@id="txtName"]
+[2024-11-28 17:36:15,968] - YCH - INFO - 【输入】：1 , 定位方式：xpath , 定位表达式：//*[@id="txtPwd"]
+[2024-11-28 17:36:16,027] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="fm-login-submit"]
+[2024-11-28 17:36:18,031] - YCH - INFO - 【等待】:2秒
+[2024-11-28 17:36:18,031] - YCH - INFO - 【默认登录成功】
+[2024-11-28 17:36:19,034] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:19,094] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="mumu_group100001100"]
+[2024-11-28 17:36:19,177] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="pleft_100001100"]
+[2024-11-28 17:36:20,183] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:20,241] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="left_100001100"]
+[2024-11-28 17:36:20,298] - YCH - INFO - 【切换iframe】,iframe表达式：//*[contains(@src,"LgLeveSet.html")]
+[2024-11-28 17:36:23,302] - YCH - INFO - 【等待】:3秒
+[2024-11-28 17:36:23,392] - YCH - INFO - 【输入】：atuo级别 , 定位方式：xpath , 定位表达式：//*[@id="txtLevelName"]
+[2024-11-28 17:36:23,567] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnQuery"]
+[2024-11-28 17:36:24,569] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:25,619] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:25,620] - YCH - INFO - 断言成功，页面存在该会员级别：atuo级别
+[2024-11-28 17:36:25,620] - YCH - INFO - 【用例运行时长】: 10.93秒
+[2024-11-28 17:36:25,621] - YCH - INFO - ====================【test_002_leaguer_level_query测试用例结束】====================
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td>无截图</td>
+</tr>
+
+<tr id='pt1.1.3' class='hiddenRow'>
+    <td ><div class='testcase'>test_003_leaguer_level_del: 删除会员</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1.3')" >
+        通过</a></span>
+
+    <div id='div_pt1.1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1.3: [2024-11-28 17:36:25,621] - YCH - INFO - ============【test_003_leaguer_level_del测试用例开始】====================
+[2024-11-28 17:36:25,623] - YCH - INFO - 【操作系统】：macOS-13.6.3-x86_64-i386-64bit
+[2024-11-28 17:36:25,623] - YCH - INFO - 【浏览器】：chrome
+[2024-11-28 17:36:25,678] - YCH - INFO - 【打开URL】：http://192.168.6.201:9999/admin/
+[2024-11-28 17:36:26,682] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:26,771] - YCH - INFO - 【输入】：201 , 定位方式：xpath , 定位表达式：//*[@id="txtName"]
+[2024-11-28 17:36:26,861] - YCH - INFO - 【输入】：1 , 定位方式：xpath , 定位表达式：//*[@id="txtPwd"]
+[2024-11-28 17:36:26,907] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="fm-login-submit"]
+[2024-11-28 17:36:28,912] - YCH - INFO - 【等待】:2秒
+[2024-11-28 17:36:28,913] - YCH - INFO - 【默认登录成功】
+[2024-11-28 17:36:29,919] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:29,978] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="mumu_group100001100"]
+[2024-11-28 17:36:30,054] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="pleft_100001100"]
+[2024-11-28 17:36:31,056] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:31,114] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="left_100001100"]
+[2024-11-28 17:36:31,170] - YCH - INFO - 【切换iframe】,iframe表达式：//*[contains(@src,"LgLeveSet.html")]
+[2024-11-28 17:36:34,175] - YCH - INFO - 【等待】:3秒
+[2024-11-28 17:36:34,306] - YCH - INFO - 【输入】：atuo级别 , 定位方式：xpath , 定位表达式：//*[@id="txtLevelName"]
+[2024-11-28 17:36:34,441] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnQuery"]
+[2024-11-28 17:36:35,443] - YCH - INFO - 【等待】:1秒
+[2024-11-28 17:36:35,543] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@class='datagrid-btable']/tbody/tr/td[1]/div/input
+[2024-11-28 17:36:35,624] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnDel"]
+[2024-11-28 17:36:37,626] - YCH - INFO - 【等待】:2秒
+[2024-11-28 17:36:37,630] - YCH - INFO - 【返回上一层iframe】
+[2024-11-28 17:36:37,687] - YCH - INFO - 【点击元素】:  定位方式：xpath ， 定位表达式：//*[@id="btnMsgDelOK"]
+[2024-11-28 17:36:37,703] - YCH - INFO - 【切换iframe】,iframe表达式：//*[contains(@src,"LgLeveSet.html")]
+[2024-11-28 17:36:37,885] - YCH - INFO - 【获取元素文本】： 定位方式：xpath ， 定位表达式：//*[@id="alert"]
+[2024-11-28 17:36:37,907] - YCH - INFO - 【保存提示文本】:×
+数据删除成功！ (3)
+[2024-11-28 17:36:37,907] - YCH - INFO - 断言成功，页面提示删除成功！
+[2024-11-28 17:36:37,907] - YCH - INFO - 【用例运行时长】: 12.29秒
+[2024-11-28 17:36:37,908] - YCH - INFO - ====================【test_003_leaguer_level_del测试用例结束】====================
 
 
         </pre>
@@ -515,8 +643,8 @@ pt1.1.1: [2019-12-20 17:40:39,658] - YCH - INFO - ============【test_001_login_
 
 <tr id='total_row'>
     <th>统计</th>
-    <th>1</th>
-    <th>1</th>
+    <th>3</th>
+    <th>3</th>
     <th>0</th>
     <th>0</th>
     <th>&nbsp;</th>
@@ -525,7 +653,7 @@ pt1.1.1: [2019-12-20 17:40:39,658] - YCH - INFO - ============【test_001_login_
 </table>
 <script>
     showCase(0,1);
-    drawCircle('circle1',1, 0, 0);
+    drawCircle('circle1',3, 0, 0);
 </script>
 
 <div id='ending'>&nbsp;</div>

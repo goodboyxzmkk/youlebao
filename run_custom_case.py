@@ -17,8 +17,8 @@ goods = unittest.TestLoader().loadTestsFromTestCase(Goods_Case)
 if __name__ == '__main__':
     # suites = unittest.TestSuite([online_test, login_test, leaguer_level_test])
     suites = unittest.TestSuite()
-    suites.addTests(login)
-    # suites.addTests(leaguer_level)
+    # suites.addTests(login)
+    suites.addTests(leaguer_level)
     # suites.addTests(goods_category)
     # suites.addTests(goods)
 

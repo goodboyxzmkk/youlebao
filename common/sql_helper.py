@@ -59,8 +59,9 @@ if __name__ == '__main__':
     # user = 'sa'
     # pwd = 'ych123456.'
     # db = 'YCHMALL'
-    sql = "select *from Mall_LeaguerLevel where IsDelete=0 and LevelName='atuo级别';"
+    # sql = "select * from Mall_LeaguerLevel where IsDelete=0 and LevelName='atuo级别';"
+    sql = "select *from Mall_LeaguerLevel where LevelName='atuo级别';"
     a = Sql_Helper()
     result = a.ExecQuery(sql)
-    print(result[0]['LevelName'])
     print(result[0])
+    print(result[0]['LevelName'])

@@ -12,8 +12,6 @@ from selenium.webdriver.common.keys import Keys
 from common import config_manage
 from common.logger import Logger
 from selenium.webdriver.common.action_chains import ActionChains
-import win32api
-import win32con
 
 
 class Base_Page(object):
@@ -32,9 +30,9 @@ class Base_Page(object):
     def find_element2(self, by, loc):
         for i in range(10):
             try:
-                ele = self.driver.find_element(by, loc)
-                if ele.is_displayed():
-                    return ele
+                eself.highlight_element(by, loc)
+                ele = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located((by, loc)))
+                return ele
             except:
                 time.sleep(0.5)
 
@@ -47,7 +45,7 @@ class Base_Page(object):
     def find_elements(self, by, loc):
         # self.log.info("【find元素】，定位方式：{}, 定位表达式：{}".format(by, loc))
         # presence_of_element_located 需要传元组类型
-        eles = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_element_located((by, loc)))
+        eles = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_all_elements_located((by, loc)))
         return eles
 
     def exists_element(self, by, loc):
@@ -79,7 +77,7 @@ class Base_Page(object):
     def input(self, by, loc, value):
         '''往输入框输入内容'''
         # self.driver.find_element(by, loc).send_keys(value)
-        self.find_element2(by, loc).send_keys(value)
+        self.find_element(by, loc).send_keys(value)
         self.log.info("【输入】：{} , 定位方式：{} , 定位表达式：{}".format(value, by, loc))
 
     def clear(self, by, loc):
@@ -90,6 +88,7 @@ class Base_Page(object):
     def clear_and_input(self, by, loc, value):
         '''清空并输入内容'''
         self.find_element(by, loc).clear()
+        self.wait(0.3)
         self.find_element(by, loc).send_keys(value)
         self.log.info("【清空并输入】：{} , 定位方式：{} , 定位表达式：{}".format(value, by, loc))
 
@@ -101,7 +100,7 @@ class Base_Page(object):
 
     def click(self, by, loc):
         '''点击元素'''
-        self.find_element2(by, loc).click()
+        self.find_element(by, loc).click()
         self.log.info("【点击元素】:  定位方式：{} ， 定位表达式：{}".format(by, loc))
 
     def highlight_element(self, by, loc):
@@ -119,10 +118,11 @@ class Base_Page(object):
         '''传入table定位by,loc ，获取table中row行，col列的文本 '''
         table_ele = self.find_element(by, loc)
         try:
-            rows = table_ele.find_elements_by_tag_name('tr')  # 返回list
-            cols = rows[row].find_elements_by_tag_name("td")  # 返回list
-            return cols[col].text
-        except:
+            rows = table_ele.find_elements(By.TAG_NAME,'tr')  # 返回list
+            cell=rows[row].find_elements(By.TAG_NAME,'td')
+            return cell[col].text
+        except Exception as e:
+            self.log.info("查询元素异常：{}".format(e))
             return None
         self.log.info("【获取元素文本】： 定位方式：{} ， 定位表达式：{}".format(by, loc))
 
@@ -174,11 +174,11 @@ class Base_Page(object):
                 self.driver.switch_to.frame(index_locator)
                 self.log.info("【切换iframe】,iframe索引：{}".format(index_locator))
             elif isinstance(index_locator, str):
-                ele = self.driver.find_element_by_xpath(index_locator)
+                ele = self.driver.find_element(By.XPATH,index_locator)
                 self.driver.switch_to.frame(ele)
                 self.log.info("【切换iframe】,iframe表达式：{}".format(index_locator))
-        except:
-            self.log.error("iframe切换异常")
+        except Exception as e:
+            self.log.error("iframe切换异常:"+e)
 
     def switch_out_iframe(self):
         '''切出iframe'''

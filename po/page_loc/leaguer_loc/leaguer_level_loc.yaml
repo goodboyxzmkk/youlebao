@@ -1,9 +1,9 @@
-
+#-----菜单元素-----
 会员菜单: //*[@id="mumu_group100001100"]
 会员管理菜单: //*[@id="pleft_100001100"]
 会员级别菜单: //*[@id="left_100001100"]
 右侧iframe: //*[contains(@src,"LgLeveSet.html")]
-
+#-----新增页面元素-----
 新增按键: //*[@id="btnAdd"]
 级别名称: //*[@id="txtName"]
 续期价格: //*[@id="txtRejoinMoney"]
@@ -15,7 +15,7 @@
 保存按键: //*[@id="btnSave"]
 保存提示: //*[@id="alert"]
 sql断言: select ID,LevelName from Mall_LeaguerLevel where IsDelete=0 and LevelName=
-
+#-----功能按键元素-----
 编辑按键: //*[@id="btnEdit"]
 删除按键: //*[@id="btnDel"]
 确认删除: //*[@id="btnMsgDelOK"]

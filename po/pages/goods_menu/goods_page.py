@@ -4,7 +4,7 @@ from common import config_manage
 from common.sql_helper import Sql_Helper
 from po.pages.base_page import Base_Page
 
-goods_loc = config_manage.get_yaml_page_loc("goods_loc\\goods_loc.yaml")
+goods_loc = config_manage.get_yaml_page_loc("goods_loc/goods_loc.yaml")
 
 
 class Goods_Page():
